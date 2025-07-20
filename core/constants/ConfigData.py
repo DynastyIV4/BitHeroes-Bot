@@ -29,6 +29,6 @@ BOT_HEROES_WINDOW_TITLE = "Bot Heroes"
 # URLs 
 # =======================
 
-GITHUB_URL = "https://github.com/elwoujdi/BotHeroes/issues"
+GITHUB_URL = "https://github.com/elwoujdi/BotHeroes/issues/new/choose"
 DISCORD_URL = "https://discord.gg/KewWWyEm"
 WIKI_URL = "https://github.com/elwoujdi/BotHeroes?tab=readme-ov-file#readme"
