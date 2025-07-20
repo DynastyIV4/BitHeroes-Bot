@@ -42,9 +42,9 @@ COORDINATES_AUTO_GENERATED = {
             "4": Coordinates(363, 237),
         },
         "2": {
-            "1": Coordinates(475, 389),
+            "1": Coordinates(165, 278),
             "2": Coordinates(505, 156),
-            "3": Coordinates(165, 278),
+            "3": Coordinates(475, 389),
             "4": Coordinates(362, 266),
         },
         "3": {
