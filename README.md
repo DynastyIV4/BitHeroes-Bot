@@ -7,7 +7,7 @@
     <a href="https://github.com/elwoujdi/BotHeroes/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/elwoujdi/BotHeroes?color=2b9348"></a>
     <a href="https://github.com/elwoujdi/BotHeroes/blob/master/LICENSE"><img src="https://img.shields.io/github/license/elwoujdi/BotHeroes?color=2b9348" alt="License Badge"/></a>
     <a href="https://github.com/elwoujdi/BotHeroes/releases"><img src="https://img.shields.io/github/downloads/elwoujdi/BotHeroes/total.svg" alt="Download count"/></a>
-    <a href="https://discord.gg/EzMjmVjQ"><img src="https://img.shields.io/discord/733027681184251937.svg?style=flat&label=Join%20Community&color=7289DA" alt="Join Community Badge"/></a>
+    <a href="https://discord.gg/EzMjmVjQ"><img src="https://img.shields.io/discord/1393093390115143750.svg?style=flat&label=Join%20Community&color=7289DA" alt="Join Community Badge"/></a>
 </p>
 <p align="center">
     <img src="demo.gif" alt="Demo of Bot Heroes" />
