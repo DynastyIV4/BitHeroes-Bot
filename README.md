@@ -68,7 +68,7 @@
 <h2 align="center">Currently Not Handled & Known Bugs</h2>
 
 <ul align="center">
-    Starting a new dungeon fort the first time may confuse the auto-pilot due to unhandled in-game dialogs and post-dungeon rewards.<br>
+    Starting a new dungeon for the first time may confuse the auto-pilot due to unhandled in-game dialogs and post-dungeon rewards.<br>
     Minimizing the game window will break automation, keep the window in the foreground or activate always on top.<br>
 </ul>
 
