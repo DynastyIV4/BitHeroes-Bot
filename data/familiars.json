@@ -1,0 +1,4348 @@
+{
+    "BooBoo": {
+        "quest": {
+            "zone": [
+                "1",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Batty": {
+        "quest": {
+            "zone": [
+                "1",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Prof. Oak": {
+        "quest": {
+            "zone": [
+                "1",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Es'Skeleto": {
+        "quest": {
+            "zone": [
+                "1",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Krusty": {
+        "quest": {
+            "zone": [
+                "1",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Baumo": {
+        "quest": {
+            "zone": [
+                "2",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Sugg": {
+        "quest": {
+            "zone": [
+                "2",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Gak": {
+        "quest": {
+            "zone": [
+                "2",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Bromm": {
+        "quest": {
+            "zone": [
+                "2",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Archie": {
+        "quest": {
+            "zone": [
+                "2",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Ives": {
+        "quest": {
+            "zone": [
+                "3",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Naginee": {
+        "quest": {
+            "zone": [
+                "3",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Mr. Wasson": {
+        "quest": {
+            "zone": [
+                "3",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Juice": {
+        "quest": {
+            "zone": [
+                "3",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Nock": {
+        "quest": {
+            "zone": [
+                "3",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Terra": {
+        "quest": {
+            "zone": [
+                "4",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Uggs": {
+        "quest": {
+            "zone": [
+                "4",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Saerebrum": {
+        "quest": {
+            "zone": [
+                "4",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Sammy": {
+        "quest": {
+            "zone": [
+                "4",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Golum": {
+        "quest": {
+            "zone": [
+                "4",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Emmyt": {
+        "quest": {
+            "zone": [
+                "5",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Conan": {
+        "quest": {
+            "zone": [
+                "5",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Mummih": {
+        "quest": {
+            "zone": [
+                "5",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Drogginz": {
+        "quest": {
+            "zone": [
+                "6",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Stumpie": {
+        "quest": {
+            "zone": [
+                "6",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Vicky": {
+        "quest": {
+            "zone": [
+                "7",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "The Gooz": {
+        "quest": {
+            "zone": [
+                "7",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Flurgie": {
+        "quest": {
+            "zone": [
+                "8",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "CandelaBros": {
+        "quest": {
+            "zone": [
+                "8",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Menvin": {
+        "quest": {
+            "zone": [
+                "10"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Samark": {
+        "quest": {
+            "zone": [
+                "10"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Chilro": {
+        "quest": {
+            "zone": [
+                "10"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Korzamin": {
+        "quest": {
+            "zone": [
+                "11"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Dourgok": {
+        "quest": {
+            "zone": [
+                "11"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Auris": {
+        "quest": {
+            "zone": [
+                "11"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Jubol": {
+        "quest": {
+            "zone": [
+                "12"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Thutrumech": {
+        "quest": {
+            "zone": [
+                "12"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Neutromixolizer Z": {
+        "quest": {
+            "zone": [
+                "12"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Chaac": {
+        "quest": {
+            "zone": [
+                "13"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Mazaco": {
+        "quest": {
+            "zone": [
+                "13"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Ohco": {
+        "quest": {
+            "zone": [
+                "13"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Amoaki": {
+        "quest": {
+            "zone": [
+                "14"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Rhida": {
+        "quest": {
+            "zone": [
+                "14"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Vurd": {
+        "quest": {
+            "zone": [
+                "14"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Bitos": {
+        "quest": {
+            "zone": [
+                "15"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Lev": {
+        "quest": {
+            "zone": [
+                "15"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Blergh": {
+        "quest": {
+            "zone": [
+                "15"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "DaBadge": {
+        "quest": {
+            "zone": [
+                "16"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Vernecilo": {
+        "quest": {
+            "zone": [
+                "16"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Carbonor": {
+        "quest": {
+            "zone": [
+                "16"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Phony": {
+        "quest": {
+            "zone": [
+                "17"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Arex": {
+        "quest": {
+            "zone": [
+                "17"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Nemean": {
+        "quest": {
+            "zone": [
+                "17"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "MaxMax": {
+        "quest": {
+            "zone": [
+                "18"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Krablam": {
+        "quest": {
+            "zone": [
+                "18"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Chooc": {
+        "quest": {
+            "zone": [
+                "18"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Mananan": {
+        "quest": {
+            "zone": [
+                "19"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Tukatuks": {
+        "quest": {
+            "zone": [
+                "19"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "FREH": {
+        "quest": {
+            "zone": [
+                "19"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Broky": {
+        "quest": {
+            "zone": [
+                "20"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Birdsworth": {
+        "quest": {
+            "zone": [
+                "20"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Krispy": {
+        "quest": {
+            "zone": [
+                "20"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "common"
+    },
+    "Tubbo": {
+        "quest": {
+            "zone": [
+                "1",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Shrump": {
+        "quest": {
+            "zone": [
+                "1",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Bob": {
+        "quest": {
+            "zone": [
+                "1",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Mer'lan": {
+        "quest": {
+            "zone": [
+                "1",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Pengey": {
+        "quest": {
+            "zone": [
+                "2",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "McGobblestein": {
+        "quest": {
+            "zone": [
+                "2",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Grampz": {
+        "quest": {
+            "zone": [
+                "2",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Sha'Man": {
+        "quest": {
+            "zone": [
+                "2",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Dina": {
+        "quest": {
+            "zone": [
+                "3",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Neila": {
+        "quest": {
+            "zone": [
+                "3",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Melvins": {
+        "quest": {
+            "zone": [
+                "3",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Rills": {
+        "quest": {
+            "zone": [
+                "3",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Roy": {
+        "quest": {
+            "zone": [
+                "4",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Patches": {
+        "quest": {
+            "zone": [
+                "4",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Zorg": {
+        "quest": {
+            "zone": [
+                "4",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Staeus": {
+        "quest": {
+            "zone": [
+                "4",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Kroger": {
+        "quest": {
+            "zone": [
+                "5",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Bebemenz": {
+        "quest": {
+            "zone": [
+                "5",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Amby": {
+        "quest": {
+            "zone": [
+                "5",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Melv'guin": {
+        "quest": {
+            "zone": [
+                "5",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Brute": {
+        "quest": {
+            "zone": [
+                "5",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Sitra": {
+        "quest": {
+            "zone": [
+                "5",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Marvin": {
+        "quest": {
+            "zone": [
+                "6",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Wingo": {
+        "quest": {
+            "zone": [
+                "6",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Opo": {
+        "quest": {
+            "zone": [
+                "6",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Chewy": {
+        "quest": {
+            "zone": [
+                "6",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Negrim": {
+        "quest": {
+            "zone": [
+                "6",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Varlos": {
+        "quest": {
+            "zone": [
+                "6",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Larzhul": {
+        "quest": {
+            "zone": [
+                "6",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Poke": {
+        "quest": {
+            "zone": [
+                "7",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Cramlich Force": {
+        "quest": {
+            "zone": [
+                "7",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Winslow": {
+        "quest": {
+            "zone": [
+                "7",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Brimby": {
+        "quest": {
+            "zone": [
+                "7",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Trelpin": {
+        "quest": {
+            "zone": [
+                "8",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Scuttlez": {
+        "quest": {
+            "zone": [
+                "8",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Marm": {
+        "quest": {
+            "zone": [
+                "8",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Findle": {
+        "quest": {
+            "zone": [
+                "8",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Knigmane": {
+        "quest": {
+            "zone": [
+                "10"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Arczog": {
+        "quest": {
+            "zone": [
+                "10"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Anrie": {
+        "quest": {
+            "zone": [
+                "10"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Blori": {
+        "quest": {
+            "zone": [
+                "10"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Dwatenna": {
+        "quest": {
+            "zone": [
+                "10"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Elel": {
+        "quest": {
+            "zone": [
+                "10"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Xozgath": {
+        "quest": {
+            "zone": [
+                "11"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Urnamaz": {
+        "quest": {
+            "zone": [
+                "11"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Gokned": {
+        "quest": {
+            "zone": [
+                "11"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Ourlak": {
+        "quest": {
+            "zone": [
+                "11"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Vape": {
+        "quest": {
+            "zone": [
+                "11"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Cerulle": {
+        "quest": {
+            "zone": [
+                "11"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Dilgrair": {
+        "quest": {
+            "zone": [
+                "12"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Haltreo": {
+        "quest": {
+            "zone": [
+                "12"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "A2 Decimator": {
+        "quest": {
+            "zone": [
+                "12"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Lutreakara": {
+        "quest": {
+            "zone": [
+                "12"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "S.O.S X911": {
+        "quest": {
+            "zone": [
+                "12"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Solarsun": {
+        "quest": {
+            "zone": [
+                "12"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Nehtotiliz": {
+        "quest": {
+            "zone": [
+                "13"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Yumkaax": {
+        "quest": {
+            "zone": [
+                "13"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Altepec": {
+        "quest": {
+            "zone": [
+                "13"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Cualpalli": {
+        "quest": {
+            "zone": [
+                "13"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Hulocoatl": {
+        "quest": {
+            "zone": [
+                "13"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Tlateochi": {
+        "quest": {
+            "zone": [
+                "13"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Mushomuno": {
+        "quest": {
+            "zone": [
+                "14"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Nerrocen": {
+        "quest": {
+            "zone": [
+                "14"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Digenia": {
+        "quest": {
+            "zone": [
+                "14"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Frathena": {
+        "quest": {
+            "zone": [
+                "14"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Bhirkund": {
+        "quest": {
+            "zone": [
+                "14"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Primadur": {
+        "quest": {
+            "zone": [
+                "14"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Caereni": {
+        "quest": {
+            "zone": [
+                "15"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Equos": {
+        "quest": {
+            "zone": [
+                "15"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Tiriro": {
+        "quest": {
+            "zone": [
+                "15"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Anatoli": {
+        "quest": {
+            "zone": [
+                "15"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Grunturgh": {
+        "quest": {
+            "zone": [
+                "15"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Lmaorgh": {
+        "quest": {
+            "zone": [
+                "15"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Twinkor": {
+        "quest": {
+            "zone": [
+                "16"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Wes": {
+        "quest": {
+            "zone": [
+                "16"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Poiroton": {
+        "quest": {
+            "zone": [
+                "16"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Bassaux": {
+        "quest": {
+            "zone": [
+                "16"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Mechanika": {
+        "quest": {
+            "zone": [
+                "16"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Jerry Claypol": {
+        "quest": {
+            "zone": [
+                "16"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Gorgonia": {
+        "quest": {
+            "zone": [
+                "17"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Lermes Binner": {
+        "quest": {
+            "zone": [
+                "17"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Hest": {
+        "quest": {
+            "zone": [
+                "17"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Fido": {
+        "quest": {
+            "zone": [
+                "17"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Zonda": {
+        "quest": {
+            "zone": [
+                "17"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Gargarax": {
+        "quest": {
+            "zone": [
+                "17"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Gotapatents": {
+        "quest": {
+            "zone": [
+                "18"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Pizzananax": {
+        "quest": {
+            "zone": [
+                "18"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Captain Babosha": {
+        "quest": {
+            "zone": [
+                "18"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Clonatronix9000": {
+        "quest": {
+            "zone": [
+                "18"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Mooby": {
+        "quest": {
+            "zone": [
+                "18"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Colorteebee": {
+        "quest": {
+            "zone": [
+                "18"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Geordi": {
+        "quest": {
+            "zone": [
+                "19"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Sarbrin": {
+        "quest": {
+            "zone": [
+                "19"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Nan": {
+        "quest": {
+            "zone": [
+                "19"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Leftraru": {
+        "quest": {
+            "zone": [
+                "19"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Merk": {
+        "quest": {
+            "zone": [
+                "19"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "ColoraTrix": {
+        "quest": {
+            "zone": [
+                "19"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Moliere": {
+        "quest": {
+            "zone": [
+                "20"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Porteriuz": {
+        "quest": {
+            "zone": [
+                "20"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "B.R.E.M": {
+        "quest": {
+            "zone": [
+                "20"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Dr. Newther": {
+        "quest": {
+            "zone": [
+                "20"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Cluchick": {
+        "quest": {
+            "zone": [
+                "20"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Gothra Shaman": {
+        "quest": {
+            "zone": [
+                "20"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "rare"
+    },
+    "Grimz": {
+        "quest": {
+            "zone": [
+                "1",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Dryad": {
+        "quest": {
+            "zone": [
+                "1",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Lord Cerulean": {
+        "quest": {
+            "zone": [
+                "1",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Yeti": {
+        "quest": {
+            "zone": [
+                "2",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Blubber": {
+        "quest": {
+            "zone": [
+                "2",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Gemm": {
+        "quest": {
+            "zone": [
+                "2",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Nosdoodoo": {
+        "quest": {
+            "zone": [
+                "3",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Jeb": {
+        "quest": {
+            "zone": [
+                "3",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Quirrel": {
+        "quest": {
+            "zone": [
+                "3",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Rexie": {
+        "quest": {
+            "zone": [
+                "4",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Warty": {
+        "quest": {
+            "zone": [
+                "4",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Kov'alg": {
+        "quest": {
+            "zone": [
+                "4",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Torlim": {
+        "quest": {
+            "zone": [
+                "5",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Zorul": {
+        "quest": {
+            "zone": [
+                "5",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Tealk": {
+        "quest": {
+            "zone": [
+                "5",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Rugumz": {
+        "quest": {
+            "zone": [
+                "6",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Blemb": {
+        "quest": {
+            "zone": [
+                "6",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Moghur": {
+        "quest": {
+            "zone": [
+                "6",
+                "9"
+            ],
+            "dungeon": [
+                "3",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Scorpius": {
+        "quest": {
+            "zone": [
+                "7",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Vedaire": {
+        "quest": {
+            "zone": [
+                "7",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Googamenz": {
+        "quest": {
+            "zone": [
+                "8",
+                "9"
+            ],
+            "dungeon": [
+                "1",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "The Trilogy": {
+        "quest": {
+            "zone": [
+                "8",
+                "9"
+            ],
+            "dungeon": [
+                "2",
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Calverang": {
+        "quest": {
+            "zone": [
+                "10"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Melmarn": {
+        "quest": {
+            "zone": [
+                "10"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Trolf": {
+        "quest": {
+            "zone": [
+                "10"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Flametalon": {
+        "quest": {
+            "zone": [
+                "11"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Truago": {
+        "quest": {
+            "zone": [
+                "11"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Mistral": {
+        "quest": {
+            "zone": [
+                "11"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Jeevika": {
+        "quest": {
+            "zone": [
+                "12"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Jurvis": {
+        "quest": {
+            "zone": [
+                "12"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Dr Berdot": {
+        "quest": {
+            "zone": [
+                "12"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Itzana": {
+        "quest": {
+            "zone": [
+                "13"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Copacatil": {
+        "quest": {
+            "zone": [
+                "13"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Kinixh": {
+        "quest": {
+            "zone": [
+                "13"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Asunteng": {
+        "quest": {
+            "zone": [
+                "14"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Thikad Mul": {
+        "quest": {
+            "zone": [
+                "14"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Melica": {
+        "quest": {
+            "zone": [
+                "14"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Haefest": {
+        "quest": {
+            "zone": [
+                "15"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Baga Baya": {
+        "quest": {
+            "zone": [
+                "15"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Calaveragh": {
+        "quest": {
+            "zone": [
+                "15"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Gorobot": {
+        "quest": {
+            "zone": [
+                "16"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Trombolini": {
+        "quest": {
+            "zone": [
+                "16"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Pomp Drillo": {
+        "quest": {
+            "zone": [
+                "16"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Thanates": {
+        "quest": {
+            "zone": [
+                "17"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Thebes": {
+        "quest": {
+            "zone": [
+                "17"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Aeololo": {
+        "quest": {
+            "zone": [
+                "17"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Robosawa": {
+        "quest": {
+            "zone": [
+                "18"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Dr Ediblegh": {
+        "quest": {
+            "zone": [
+                "18"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Washi": {
+        "quest": {
+            "zone": [
+                "18"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Tomor": {
+        "quest": {
+            "zone": [
+                "19"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Espanior": {
+        "quest": {
+            "zone": [
+                "19"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Davidator": {
+        "quest": {
+            "zone": [
+                "19"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Tibourke": {
+        "quest": {
+            "zone": [
+                "20"
+            ],
+            "dungeon": [
+                "1"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Dr. Huther": {
+        "quest": {
+            "zone": [
+                "20"
+            ],
+            "dungeon": [
+                "2"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Cachicken Totem": {
+        "quest": {
+            "zone": [
+                "20"
+            ],
+            "dungeon": [
+                "3"
+            ]
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "epic"
+    },
+    "Ragnar": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "1"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Shade": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "1"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Squib": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "1"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Violace": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "2"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Oevor": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "2"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Driffin": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "2"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Krackers": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "3"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Bargz": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "3"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Jack": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "3"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "J3-17": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "4"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "RoboMax - 6000": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "4"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Duobomz": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "4"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Xanthin": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "5"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Gelvins": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "5"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Svirnic": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "5"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Crum": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "6"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Sprout": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "6"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Flitty": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "6"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Gala": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "7"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Cap Kids": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "7"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Flixie": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "7"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Dripgo": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "8"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Enenra": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "8"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Davirek": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "8"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Daneis": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "9"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Luminous": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "9"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Basitrom": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "9"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Callumcane": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "10"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Flothra": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "10"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Cyclonius": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "10"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Inti": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "11"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Tecoatl": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "11"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Ahlpuch": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "11"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Hanfarin": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "12"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Ferumar": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "12"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Neistall": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "12"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Ulvar": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "13"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Faltin": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "13"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Toruyy": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "13"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Jumperlax": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "14"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Cicada": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "14"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Lilgator": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "14"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Cyclets": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "15"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Su-Zhanha": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "15"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Afro Dita": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "15"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Blobspore": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "16"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Toadiner": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "16"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Disearth": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "16"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Aborn": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "17"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Georgius": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "17"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Huey": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "17"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Pichi": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "18"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Kici": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "18"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Wadus": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "18"
+            ]
+        },
+        "rarity": "epic"
+    },
+    "Gobby": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": []
+        },
+        "rarity": "legendary"
+    },
+    "Olxa": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "1"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Astaroth": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "1"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Mimzy": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "2"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Kaleido": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "2"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Bully": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "3"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Capt. Woodbeard": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "3"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "X4-Gombo": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "4"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "XL-Ombis 400": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "4"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Svirnan": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "5"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Zol": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "5"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Clouby": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "6"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Columbus": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "6"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Gorby": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "7"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Gorbon": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "7"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Skubby": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "8"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Igneous": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "8"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Gobelux": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "9"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Gonnuthon": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "9"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Gobby Ranger": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "10"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Volazord": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "10"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Chichen": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "11"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Kakunapac": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "11"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Firulino": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "12"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Abernario": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "12"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Solbi": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "13"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Grimolf": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "13"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Steamby": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "14"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Lady Spin": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "14"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Gobbium": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "15"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Uzum": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "15"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Astrogobby": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "16"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Dunagh": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "16"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Gobborco": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "17"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Rosthai": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "17"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Gobiyaki": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "18"
+            ]
+        },
+        "rarity": "legendary"
+    },
+    "Ciro Fer Kraa": {
+        "quest": {
+            "zone": [],
+            "dungeon": []
+        },
+        "raid": {
+            "zone": [
+                "18"
+            ]
+        },
+        "rarity": "legendary"
+    }
+}

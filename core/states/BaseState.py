@@ -1,0 +1,40 @@
+from abc import ABC, abstractmethod
+
+class BaseState(ABC):
+    
+    def __init__(self, state_machine):
+        from core.StateMachine import StateMachine
+        from core.AutomationMachine import AutomationMachine
+        from core.MemoryReader import MemoryReader
+        from core.InputHandler import InputHandler
+        from core.ScreenshotTool import ScreenshotTool
+        from gui.widgets.CTkLogger import CTkLogger
+        from core.configurations.AutoFishConfiguration import AutoFishConfiguration
+        from core.configurations.AutoQuestConfiguration import AutoQuestConfiguration
+        from core.configurations.GeneralSettings import GeneralSettingsConfiguration
+        from core.GameStats import GameStats
+        from core.WindowHandler import WindowHandler
+
+        self.state_machine: StateMachine = state_machine
+        self.automation_machine: AutomationMachine = self.state_machine.automation_machine
+        self.memory_reader: MemoryReader = self.state_machine.memory_reader
+        self.input_handler: InputHandler = self.state_machine.input_handler
+        self.screenshot_tool: ScreenshotTool = self.state_machine.screenshot_tool
+        self.logger: CTkLogger = self.state_machine.logger
+        self.auto_quest_config: AutoQuestConfiguration = self.state_machine.auto_quest_config
+        self.auto_fish_config: AutoFishConfiguration = self.state_machine.auto_fish_config
+        self.general_settings_config: GeneralSettingsConfiguration = self.state_machine.general_settings_config
+        self.window_handler: WindowHandler = self.state_machine.window_handler
+        self.game_stats: GameStats = self.state_machine.game_stats
+
+    @abstractmethod
+    def enter(self):
+        pass
+    
+    @abstractmethod
+    def execute(self):
+        pass
+    
+    @abstractmethod
+    def exit(self):
+        pass

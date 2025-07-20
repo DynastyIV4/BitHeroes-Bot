@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Coordinate Tool Script",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "scripts/CoordinateTool.py"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}"
+                }
+            }
+        },
+        {
+            "label": "Run Builder Script",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "scripts/Builder.py"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}"
+                }
+            }
+        },
+    ]
+}
