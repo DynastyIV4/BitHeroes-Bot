@@ -73,6 +73,7 @@ COORDINATES_AUTO_GENERATED = {
         },
         "7": {
             "1": Coordinates(170, 331),
+            "2": Coordinates(532, 195),
             "2": Coordinates(356, 300),
         },
         "8": {

@@ -88,7 +88,7 @@ class SettingsTabView(TabContentViewModel):
         return GENERAL_SETTINGS_TITLE
 
     def need_scrollbar(self) -> bool:
-        return True
+        return False
     
     def set_tab_enabled(self, is_enabled: bool):
         self.game_path_button.configure(state="normal" if is_enabled else "disabled")
