@@ -2,6 +2,12 @@ from core.ExecutableUtilities import ExecutableUtilities
 import os
 
 # =======================
+# VERSION 
+# =======================
+
+VERSION = "v.1.0.1"
+
+# =======================
 # PATHS 
 # =======================
 

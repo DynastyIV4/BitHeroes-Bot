@@ -13,9 +13,10 @@ from gui.views.AutoQuestTabView import AutoQuestTabView
 from core.constants.GuiData import APPLICATION_NAME, WINDOW_SIZE, GAME_FRAME_SIZE, FRAME_CORNER_RADIUS, GAME_FRAME_PADDING, CONTAINER_FRAME_SIZE, \
     STAT_FRAME_PADDING, AUTO_FRAME_HEADER_FONT, AUTO_FRAME_SIZE, AUTO_FRAME_PADDING, AUTO_FRAME_CORNER_RADIUS, \
     LOG_FONT, LOG_SIZE, LOG_CORNER_RADIUS, LOG_PADDING, ON_BUTTON_PADDING, ROW_FRAME_WIDTH, APPLICATION_ICON, \
-    CONTAINER_FRAME_RADIUS, GAME_FRAME_INTERNAL_PADDING, LOGGER_TOOLTIP, TOOLTIP_PARAMETERS
+    CONTAINER_FRAME_RADIUS, GAME_FRAME_INTERNAL_PADDING, LOGGER_TOOLTIP, TOOLTIP_PARAMETERS, VERSION_FONT, VERSION_POSITION
+from core.constants.ConfigData import VERSION
 
-from customtkinter import CTk, CTkFrame
+from customtkinter import CTk, CTkFrame, CTkLabel, ThemeManager
 
 class BotHeroesGui(CTk):
     def __init__(self):
@@ -82,6 +83,7 @@ class BotHeroesGui(CTk):
                                 corner_radius=LOG_CORNER_RADIUS)
         
         self.on_off_button = OnOffButtonView(container_third_row)
+        self.version_label = CTkLabel(self, text=VERSION, font=VERSION_FONT, fg_color=ThemeManager.theme["CTkTextbox"]["fg_color"])
 
 
         container_frame.pack(side="left", padx=(0, GAME_FRAME_PADDING), pady = GAME_FRAME_PADDING, fill="x")
@@ -101,6 +103,7 @@ class BotHeroesGui(CTk):
 
         self.logger.pack(side="left", padx= LOG_PADDING, pady= LOG_PADDING)
         self.on_off_button.pack(side="left", padx= (ON_BUTTON_PADDING, 0))
+        self.version_label.place(x=VERSION_POSITION[0], y=VERSION_POSITION[1])
 
     def get_ctk_logger(self) -> CTkLogger:
         return self.logger
