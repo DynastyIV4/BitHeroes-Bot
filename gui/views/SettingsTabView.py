@@ -60,15 +60,16 @@ class SettingsTabView(TabContentViewModel):
         
         self.apperance_mode_menu._text_label.configure(wraplength=100)
 
-        self.apperance_mode_label.grid(row=2, column=0, padx=INTERNAL_PADDING, pady=INTERNAL_PADDING)
-        self.apperance_mode_menu.grid(row=2, column=1, padx=INTERNAL_PADDING, pady=INTERNAL_PADDING)
-        self.game_path_label.grid(row=0, column=0, columnspan=2)
+        # Hidden until it's working again
+        #self.apperance_mode_label.grid(row=2, column=0, padx=INTERNAL_PADDING, pady=INTERNAL_PADDING)
+        #self.apperance_mode_menu.grid(row=2, column=1, padx=INTERNAL_PADDING, pady=INTERNAL_PADDING)
+        self.game_path_label.grid(row=0, column=0, columnspan=3)
         self.game_path_container.grid(row=1, column=0, columnspan=3)
         self.game_path_container.pack_propagate(False)
         self.game_path_button.pack(side="left", padx= (5,0))
         self.text_frame.pack(side="left", expand=True, fill="both", padx=5, pady=5)
         self.text_label.pack(side="left", padx=15 )
-        self.keep_pinned_check_box.grid(row=3, column=0, columnspan=2, padx=INTERNAL_PADDING, pady=12)
+        self.keep_pinned_check_box.grid(row=3, column=0, columnspan=3, padx=INTERNAL_PADDING, pady=20)
 
         MyCTkToolTip(self.apperance_mode_menu, APPEARANCE_MODE_TOOLTIP, **TOOLTIP_PARAMETERS)
         MyCTkToolTip(self.game_path_button, GAME_PATH_TOOLTIP, **TOOLTIP_PARAMETERS)

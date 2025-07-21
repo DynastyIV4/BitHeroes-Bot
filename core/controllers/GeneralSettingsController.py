@@ -23,7 +23,7 @@ class GeneralSettingsController(ConfigurationControllerModel):
     # ######################
 
     def _apply_configuration(self):
-        self.view.set_appearance_default_selection(APPEARANCE_MODE[self.model.appearance_mode])
+        self.view.set_appearance_default_selection(APPEARANCE_MODE[1]) # Forced to dark until Light is working
         self.view.set_game_path_value(self.model.game_path)
         self._apply_appearance_mode(APPEARANCE_MODE[self.model.appearance_mode])
         self.bot_heroes_gui.set_always_on_top(self.model.is_always_on_top)
