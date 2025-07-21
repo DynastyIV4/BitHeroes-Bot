@@ -12,6 +12,7 @@ from core.ScreenshotTool import ScreenshotTool
 from core.Errors import AutoPilotStoppedByButtonError, InputControllerClickError, NoAutomationAvailableToRefill, FamiliarNameDetectionFailed, \
                         GameNotLaunchedError, UnableToFocusError
 from core.Observer import Subscriber
+from core.ZoneData import ZoneData
 from core.GameStats import GameStats
 from gui.widgets.CTkLogger import CTkLogger
 
@@ -26,6 +27,7 @@ class StateMachine(Subscriber):
                  game_stats: GameStats,
                  window_handler: WindowHandler,
                  screenshot_tool: ScreenshotTool,
+                 zone_data: ZoneData,
                  logger: CTkLogger):
         super().__init__()
         self.input_handler = input_handler
@@ -36,6 +38,7 @@ class StateMachine(Subscriber):
         self.game_stats = game_stats
         self.window_handler = window_handler
         self.screenshot_tool = screenshot_tool
+        self.zone_data = zone_data
         self.logger = logger
         self.automation_machine = AutomationMachine(auto_quest_config, auto_fish_config, logger)
         self._current_state = None

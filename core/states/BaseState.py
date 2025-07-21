@@ -8,12 +8,13 @@ class BaseState(ABC):
         from core.MemoryReader import MemoryReader
         from core.InputHandler import InputHandler
         from core.ScreenshotTool import ScreenshotTool
-        from gui.widgets.CTkLogger import CTkLogger
         from core.configurations.AutoFishConfiguration import AutoFishConfiguration
         from core.configurations.AutoQuestConfiguration import AutoQuestConfiguration
         from core.configurations.GeneralSettings import GeneralSettingsConfiguration
         from core.GameStats import GameStats
+        from core.ZoneData import ZoneData
         from core.WindowHandler import WindowHandler
+        from gui.widgets.CTkLogger import CTkLogger
 
         self.state_machine: StateMachine = state_machine
         self.automation_machine: AutomationMachine = self.state_machine.automation_machine
@@ -26,6 +27,7 @@ class BaseState(ABC):
         self.general_settings_config: GeneralSettingsConfiguration = self.state_machine.general_settings_config
         self.window_handler: WindowHandler = self.state_machine.window_handler
         self.game_stats: GameStats = self.state_machine.game_stats
+        self.zone_data: ZoneData = self.state_machine.zone_data
 
     @abstractmethod
     def enter(self):

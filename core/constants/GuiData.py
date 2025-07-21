@@ -49,12 +49,7 @@ DISCLAIMER_FONT = (GLOBAL_FONT, 9)
 # TEXTS 
 # =======================
 APPLICATION_NAME = "Bot Heroes"
-AUTO_QUEST_DUNGEONS = ["Select Dungeon", "1", "2", "3", "4"]
-AUTO_QUEST_ZONES = ["Select Zone", "Bit Valley", "Wintermarsh", "Lakehaven", "Ashvale", "Aramore", "Morgoroth", "Cambora", "Galaran", 
-                     "Eshlyn", "Uamor", "Melvin's Genesis", "Zord Attacks!", "Ancient Odyssey", "Southpeak", "Fenrir's Omen", "Steamfunk City", 
-                     "Olympian Secret Party", "Sruxon Attack!", "Galactic Trials", "Big Claw"]
 AUTO_QUEST_DIFFICULTY = ["NORMAL", "HARD", "HEROIC"]
-FAMILIARS = ["Select Familiar", "BooBoo", "Batty", "Prof. Oak"]
 APPEARANCE_MODE = ["Use system settings", "Dark", "Light"]
 APPEARANCE_MODE_TITLE = "APPEARANCE MODE:"
 AUTO_QUEST_TITLE = "AUTO QUEST"
@@ -66,6 +61,8 @@ GAME_PATH_DEFAULT_TEXT = "NO GAME PATH SELECTED"
 INFO_TITLE = "INFO"
 INFO_LABEL_TITLE = "⚠️ Disclaimer"
 INFO_LABEL_DISCLAIMER = """This tool is created strictly for educational and research purposes. It is not intended for use with live game accounts or for violating any game's Terms of Service. Using automation tools in online games may lead to account bans or other penalties. The author is not responsible for any misuse of this code."""
+ZONE_FIRST_OPTION = "SELECT ZONE"
+DUNGEON_FIRST_OPTION = "SELECT DUNGEON"
 
 # =======================
 # SIZE AND POSITION 

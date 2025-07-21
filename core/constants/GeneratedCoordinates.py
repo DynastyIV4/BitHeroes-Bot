@@ -159,4 +159,5 @@ COORDINATES_AUTO_GENERATED = {
     "worm_bar_box": Coordinates(456, 404),
     "rerun_dungeon": Coordinates(298, 477),
     "persuasion_has_succeeded": ColorCoordinates(405, 462, 57, 180, 211),
+    "run_last_dungeon": Coordinates(436, 453),
 }

@@ -145,6 +145,9 @@ class InputHandler(Publisher):
     
     def close_window(self):
         self._escape()
+    
+    def click_run_last_dungeon(self):
+        self._click(COORDINATES["run_last_dungeon"])
 
     def select_worm(self, rarity: WormRarity, available_worms: list[WormRarity]):
         rarity_weights = {

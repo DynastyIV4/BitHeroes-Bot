@@ -1,7 +1,7 @@
-from core.constants.GuiData import AUTO_FRAME_MENU_SIZE, AUTO_QUEST_ZONES, AUTO_QUEST_DUNGEONS, AUTO_QUEST_ICON_TOOLTIP, \
+from core.constants.GuiData import AUTO_FRAME_MENU_SIZE, AUTO_QUEST_ICON_TOOLTIP, AUTO_QUEST_DIFFICULTY, DIFFICULTY_TOOLTIP, \
                                    AUTO_QUEST_ICON_PATH, AUTO_QUEST_TITLE, INTERNAL_PADDING, AUTO_FRAME_CONTENT_TITLE_FONT, AUTO_FRAME_CONTENT_FONT, \
                                    PERSUADE_TOOLTIP, TOOLTIP_PARAMETERS, DUNGEON_TOOLTIP, ZONE_TOOLTIP, DECLINE_TOOLTIP, FAMILIAR_TOOLTIP, \
-                                   BUTTON_SELECT_ICON_SIZE, FAMILIAR_LISTBOX_WIDTH, ERROR_COLOR, AUTO_QUEST_DIFFICULTY, DIFFICULTY_TOOLTIP
+                                   BUTTON_SELECT_ICON_SIZE, FAMILIAR_LISTBOX_WIDTH, ERROR_COLOR
 from gui.view_models.TabContentViewModel import TabContentViewModel
 from gui.widgets.MyCTkListbox import MyCTkListbox
 from gui.widgets.MyCTkToolTip import MyCTkToolTip
@@ -25,15 +25,13 @@ class AutoQuestTabView(TabContentViewModel):
                                           font=AUTO_FRAME_CONTENT_FONT, 
                                           dropdown_font=AUTO_FRAME_CONTENT_FONT, 
                                           width=AUTO_FRAME_MENU_SIZE[0], 
-                                          height=AUTO_FRAME_MENU_SIZE[1], 
-                                          values=AUTO_QUEST_DUNGEONS)
+                                          height=AUTO_FRAME_MENU_SIZE[1])
 
         self.zone_menu = CTkOptionMenu(self, 
                                        font=AUTO_FRAME_CONTENT_FONT, 
                                        dropdown_font=AUTO_FRAME_CONTENT_FONT, 
                                        width=AUTO_FRAME_MENU_SIZE[0], 
-                                       height=AUTO_FRAME_MENU_SIZE[1], 
-                                       values=AUTO_QUEST_ZONES)
+                                       height=AUTO_FRAME_MENU_SIZE[1])
         
         self.difficulty_label = CTkLabel(self, 
                                        text="Difficulty", 
@@ -114,11 +112,17 @@ class AutoQuestTabView(TabContentViewModel):
     # Default values
     # ######################
 
-    def set_zone_default_selection(self, zone: str):
-        self.zone_menu.set(zone)
+    def set_zone_default_values(self, values: list[str]):
+        self.zone_menu.configure(values = values)
 
-    def set_dungeon_default_selection(self, dungeon: str):
-        self.dungeon_menu.set(dungeon)
+    def set_zone_default_selection(self, zone_index: int):
+        self.zone_menu.set(self.zone_menu.cget("values")[zone_index])
+
+    def set_dungeon_default_values(self, values: list[str]):
+        self.dungeon_menu.configure(values = values)
+
+    def set_dungeon_default_selection(self, dungeon_index: int):
+        self.dungeon_menu.set(self.dungeon_menu.cget("values")[dungeon_index])
     
     def set_persuade_default_value(self, value: bool):
         if value: self.persuade_checkbox.select()
@@ -171,10 +175,10 @@ class AutoQuestTabView(TabContentViewModel):
         self.decline_checkbox.configure(command=lambda: callback(self.decline_checkbox.get()))
 
     def set_dungeon_menu_callback(self, callback):
-        self.dungeon_menu.configure(command=lambda value: callback(value))    
+        self.dungeon_menu.configure(command=lambda value: callback(self.dungeon_menu.cget("values").index(value)))    
 
     def set_zone_menu_callback(self, callback):
-        self.zone_menu.configure(command=lambda value: callback(value))    
+        self.zone_menu.configure(command=lambda value: callback(self.zone_menu.cget("values").index(value)))
 
     def set_familiar_menu_callback(self, callback):
         self.familiar_list.configure(command=lambda value: callback(value))    

@@ -15,7 +15,10 @@ class AutoQuestBehavior(BaseState):
             self.memory_reader.set_zone(self.auto_quest_config.zone)
             self.input_handler.click_quest()
             self.input_handler.click_dungeon(self.auto_quest_config.zone, self.auto_quest_config.dungeon)
-            self.input_handler.click_difficulty(self.auto_quest_config.difficulty.value)
+            if not self.zone_data.get_zone_by_index(self.auto_quest_config.zone).is_last_dungeon(self.auto_quest_config.dungeon):
+                self.input_handler.click_difficulty(self.auto_quest_config.difficulty.value)
+            else:
+                self.input_handler.click_run_last_dungeon()
             self.input_handler.click_accept_team()
             self.state_machine.change_state(DungeonState(self.state_machine))
     

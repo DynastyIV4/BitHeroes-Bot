@@ -9,6 +9,7 @@ from core.configurations.AutoQuestConfiguration import AutoQuestConfiguration
 from core.configurations.AutoFishConfiguration import AutoFishConfiguration
 from core.configurations.GeneralSettings import GeneralSettingsConfiguration
 from core.GameStats import GameStats
+from core.ZoneData import ZoneData
 from core.InputHandler import InputHandler
 from core.ScreenshotTool import ScreenshotTool
 from core.AutoPilotStarter import AutoPilotStarter
@@ -31,9 +32,10 @@ if __name__ == '__main__':
 
     memory_reader = MemoryReader()
     game_stats = GameStats()
-    familiar_data = FamiliarData()
+    zone_data = ZoneData()
+    familiar_data = FamiliarData(zone_data)
 
-    quest_controller = AutoQuestController(auto_quest_model, bot_heroes_gui.get_auto_quest_tab(), familiar_data, logger)
+    quest_controller = AutoQuestController(auto_quest_model, bot_heroes_gui.get_auto_quest_tab(), familiar_data, zone_data, logger)
     fish_controller = AutoFishController(auto_fish_model, bot_heroes_gui.get_auto_fish_tab(), logger)
     settings_controller = GeneralSettingsController(general_settings_model, bot_heroes_gui.get_settings_tab(), bot_heroes_gui, logger)
     info_controller = InfoController(bot_heroes_gui.get_info_tab(), logger)
@@ -51,6 +53,7 @@ if __name__ == '__main__':
                                  game_stats, 
                                  window_handler, 
                                  screenshot_tool,
+                                 zone_data,
                                  logger)
 
     game_automation_controllers = [quest_controller, fish_controller]
