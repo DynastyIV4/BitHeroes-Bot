@@ -25,7 +25,7 @@ class ExecutableUtilities:
     @staticmethod
     def setup_appdata_folder(folder_name: str):
         appdata_path = os.getenv('APPDATA')
-        botheroes_folder = os.path.join(appdata_path, folder_name)
+        bit_heroes_bot_folder = os.path.join(appdata_path, folder_name)
 
-        if not os.path.exists(botheroes_folder):
-            os.makedirs(botheroes_folder)
+        if not os.path.exists(bit_heroes_bot_folder):
+            os.makedirs(bit_heroes_bot_folder)

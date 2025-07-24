@@ -34,19 +34,20 @@ class FamiliarData:
         GOBBY = Familiar("Gobby", FamiliarRarity.LEGENDARY)
         matching_familiars = []
         zone_found: Zone = self._zone_data.get_zone_by_index(zone)
-        is_last_dungeon = zone_found.is_last_dungeon(dungeon)
-        dungeon_available = [dungeon]
-        if is_last_dungeon:
-            dungeon_available = [i for i in range(1, zone_found.dungeon_count)]
-            
-        for familiar, quest_raid_rarity in self._data.items():
-            zones = quest_raid_rarity.get("quest").get("zone")
-            dungeons = quest_raid_rarity.get("quest").get("dungeon")
-            rarity = quest_raid_rarity.get("rarity")
+        if zone_found:
+            is_last_dungeon = zone_found.is_last_dungeon(dungeon)
+            dungeon_available = [dungeon]
+            if is_last_dungeon:
+                dungeon_available = [i for i in range(1, zone_found.dungeon_count)]
+                
+            for familiar, quest_raid_rarity in self._data.items():
+                zones = quest_raid_rarity.get("quest").get("zone")
+                dungeons = quest_raid_rarity.get("quest").get("dungeon")
+                rarity = quest_raid_rarity.get("rarity")
 
-            for i in range (len(zones)):
-                if int(zones[i]) == zone and int(dungeons[i]) in dungeon_available:
-                    matching_familiars.append(Familiar(familiar, FamiliarRarity(rarity)))
+                for i in range (len(zones)):
+                    if int(zones[i]) == zone and int(dungeons[i]) in dungeon_available:
+                        matching_familiars.append(Familiar(familiar, FamiliarRarity(rarity)))
         
         # TEMPORY FIX: Every dungeon and every zone has Gobby, should be fixed in familiars.json
         matching_familiars.append(GOBBY)

@@ -24,7 +24,7 @@ class WindowHandler:
                 bit_heroes_bot_window[0].activate()
                 sleep(0.001)  # Give time for OS to process
             else:
-                raise UnableToFocusError("Bot Heroes")
+                raise UnableToFocusError("BitHeroes-Bot")
 
             if self._hwnd is None:
                 raise UnableToFocusError("Bit Heroes")

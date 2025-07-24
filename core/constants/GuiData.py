@@ -44,7 +44,7 @@ VERSION_FONT = ("Pixel Digivolve", 12)
 # =======================
 # TEXTS 
 # =======================
-APPLICATION_NAME = "Bot Heroes"
+APPLICATION_NAME = "Bit Heroes Bot"
 AUTO_QUEST_DIFFICULTY = ["NORMAL", "HARD", "HEROIC"]
 APPEARANCE_MODE = ["Use system settings", "Dark", "Light"]
 APPEARANCE_MODE_TITLE = "APPEARANCE MODE:"

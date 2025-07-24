@@ -1,16 +1,16 @@
 <h1 align="center">BitHeroes-Bot: A Better Auto Pilot</h1>
 <p align="center">
-    <a href="https://github.com/elwoujdi/BotHeroes/stargazers"><img src="https://img.shields.io/github/stars/elwoujdi/BotHeroes" alt="Stars Badge"/></a>
-    <a href="https://github.com/elwoujdi/BotHeroes/network/members"><img src="https://img.shields.io/github/forks/elwoujdi/BotHeroes" alt="Forks Badge"/></a>
-    <a href="https://github.com/elwoujdi/BotHeroes/pulls"><img src="https://img.shields.io/github/issues-pr/elwoujdi/BotHeroes" alt="Pull Requests Badge"/></a>
-    <a href="https://github.com/elwoujdi/BotHeroes/issues"><img src="https://img.shields.io/github/issues/elwoujdi/BotHeroes" alt="Issues Badge"/></a>
-    <a href="https://github.com/elwoujdi/BotHeroes/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/elwoujdi/BotHeroes?color=2b9348"></a>
-    <a href="https://github.com/elwoujdi/BotHeroes/blob/master/LICENSE"><img src="https://img.shields.io/github/license/elwoujdi/BotHeroes?color=2b9348" alt="License Badge"/></a>
-    <a href="https://github.com/elwoujdi/BotHeroes/releases"><img src="https://img.shields.io/github/downloads/elwoujdi/BotHeroes/total.svg" alt="Download count"/></a>
+    <a href="https://github.com/elwoujdi/BitHeroes-Bot/stargazers"><img src="https://img.shields.io/github/stars/elwoujdi/BitHeroes-Bot" alt="Stars Badge"/></a>
+    <a href="https://github.com/elwoujdi/BitHeroes-Bot/network/members"><img src="https://img.shields.io/github/forks/elwoujdi/BitHeroes-Bot" alt="Forks Badge"/></a>
+    <a href="https://github.com/elwoujdi/BitHeroes-Bot/pulls"><img src="https://img.shields.io/github/issues-pr/elwoujdi/BitHeroes-Bot" alt="Pull Requests Badge"/></a>
+    <a href="https://github.com/elwoujdi/BitHeroes-Bot/issues"><img src="https://img.shields.io/github/issues/elwoujdi/BitHeroes-Bot" alt="Issues Badge"/></a>
+    <a href="https://github.com/elwoujdi/BitHeroes-Bot/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/elwoujdi/BitHeroes-Bot?color=2b9348"></a>
+    <a href="https://github.com/elwoujdi/BitHeroes-Bot/blob/master/LICENSE"><img src="https://img.shields.io/github/license/elwoujdi/BitHeroes-Bot?color=2b9348" alt="License Badge"/></a>
+    <a href="https://github.com/elwoujdi/BitHeroes-Bot/releases"><img src="https://img.shields.io/github/downloads/elwoujdi/BitHeroes-Bot/total.svg" alt="Download count"/></a>
     <a href="https://discord.gg/EzMjmVjQ"><img src="https://img.shields.io/discord/1393093390115143750.svg?style=flat&label=Join%20Community&color=7289DA" alt="Join Community Badge"/></a>
 </p>
 <p align="center">
-    <img src="demo.gif" alt="Demo of Bot Heroes" />
+    <img src="demo.gif" alt="Demo of BitHeroes-Bot" />
 </p>
 
 
@@ -54,15 +54,15 @@
 <h2 align="center">Installation Instructions</h2>
 
 <p align="center">
-    <a href="https://github.com/elwoujdi/BotHeroes/releases/latest">Download the latest release</a>
+    <a href="https://github.com/elwoujdi/BitHeroes-Bot/releases/latest">Download the latest release</a>
 </p>
 
 <h2 align="center">Setup Instructions</h2>
 
 <ul align="center">
     1. If your Steam Bit Heroes game is fullscreen, change it to windowed.<br>
-    2. Open the BotHeroes.exe.<br>
-    3. Set your game path, enable automation, and configure your settings inside BotHeroes.<br>
+    2. Open the BitHeroes-Bot.exe.<br>
+    3. Set your game path, enable automation, and configure your settings inside BitHeroes-Bot.<br>
     4. Click the ON/OFF button to start the auto-pilot.<br>
 </ul>
 

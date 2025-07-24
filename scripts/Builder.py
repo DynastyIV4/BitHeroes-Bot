@@ -3,7 +3,7 @@ import os
 import sys
 
 # Paths
-script_name = "BotHeroes.py"
+script_name = "BitHeroes-Bot.py"
 data_folder = os.path.abspath("data")
 script_folder = os.path.abspath("scripts")
 icon_path = rf"{data_folder}\images\window_icon.ico"
