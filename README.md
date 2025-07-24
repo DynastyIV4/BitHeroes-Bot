@@ -1,7 +1,9 @@
 <h1 align="center">BitHeroes-Bot: A Better Auto Pilot</h1>
 <p align="center">
     <a href="https://github.com/elwoujdi/BitHeroes-Bot/stargazers"><img src="https://img.shields.io/github/stars/elwoujdi/BitHeroes-Bot" alt="Stars Badge"/></a>
+    <!-- Hide until fixed
     <a href="https://github.com/elwoujdi/BitHeroes-Bot/network/members"><img src="https://img.shields.io/github/forks/elwoujdi/BitHeroes-Bot" alt="Forks Badge"/></a>
+    -->
     <a href="https://github.com/elwoujdi/BitHeroes-Bot/pulls"><img src="https://img.shields.io/github/issues-pr/elwoujdi/BitHeroes-Bot" alt="Pull Requests Badge"/></a>
     <a href="https://github.com/elwoujdi/BitHeroes-Bot/issues"><img src="https://img.shields.io/github/issues/elwoujdi/BitHeroes-Bot" alt="Issues Badge"/></a>
     <a href="https://github.com/elwoujdi/BitHeroes-Bot/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/elwoujdi/BitHeroes-Bot?color=2b9348"></a>
