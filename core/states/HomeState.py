@@ -16,7 +16,7 @@ class HomeState(BaseState):
         
     def enter(self):
         self.logger.print("=== HOME STATE 🏠 ===")
-        self.input_handler.close_menu_windows()
+        self.game_interface.close_menu_windows()
         self.automation_machine.update_automation()
         self.behaviors.get(self.automation_machine.current_automation).enter()
         self.execute()

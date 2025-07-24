@@ -56,7 +56,7 @@ for table in tables:
                 break
                 
 
-output_file_path = os.path.join(os.path.dirname(__file__), "familiar_parser_files/output.json")
+output_file_path = os.path.join(os.path.dirname(__file__), "familiar_parser_files/output/familiar_data.json")
 with open(output_file_path, "w", encoding="utf-8") as output_file:
     json.dump(familiars_dict, output_file, indent=4)
 print(f"Output written to {output_file_path}")

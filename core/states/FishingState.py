@@ -13,44 +13,44 @@ class FishingState(BaseState):
         self.execute()
 
     def execute(self):
-        while self.automation_machine.has_available_worms():
-            self.state_machine.check_if_stopped()
-            current_worm: WormRarity = self.screenshot_tool.current_worm()
+        while self.automation_machine.is_any_worm_available:
+            current_worm: WormRarity = self.game_interface.current_worm()
             worms_to_select: list[WormRarity] = self.automation_machine.get_worm_to_select()
             if current_worm == WormRarity.NONE:
-                self.automation_machine.set_has_available_worm(False)
+                self.automation_machine.is_any_worm_available = False
                 self.logger.print("No worm is available 🪱")
                 self.logger.print("Fish automation will be disabled until an auto pilot restart")
             elif current_worm not in worms_to_select:
-                self.input_handler.click_worm_window()
-                available_worms = self.screenshot_tool.get_available_worms()
-                if available_worms == None:
+                self.game_interface.click_worm_window()
+                available_worms = self.game_interface.get_available_worms()
+                first_matching_worm = next((worm for worm in worms_to_select if worm in available_worms), None)
+                if first_matching_worm is None:
                     self.logger.print("You have used every worms you have enabled into the configuration. 🪱")
                     self.logger.print("Fish automation will be disabled until an auto pilot restart")
-                    self.automation_machine.set_has_available_worm(False)
-                self.input_handler.select_worm(worms_to_select[0], available_worms)
+                    self.automation_machine.is_any_worm_available = False
+                    break
+                self.game_interface.select_worm(first_matching_worm, available_worms)
             else:
-                self.input_handler.click_fish_start()
-                while not self.screenshot_tool.is_fish_min_range():
-                    self.state_machine.check_if_stopped()
+                self.game_interface.click_fish_start()
+                while not self.game_interface.is_fish_min_range():
                     pass
                 sleep(0.38)
-                self.input_handler.click_fish_cast()
+                self.game_interface.click_fish_cast()
                 sleep(6)
-                if not self.screenshot_tool.is_trash():
-                    while not self.screenshot_tool.is_fish_max_catch_rate():
-                        self.state_machine.check_if_stopped()
+                if not self.game_interface.is_trash():
+                    sleep(1)
+                    while not self.game_interface.is_fish_max_catch_rate():
                         pass
-                    self.input_handler.click_fish_catch()
+                    self.game_interface.click_fish_catch()
                     sleep(4)
                     self.game_stats.increment_fish_caught()
                     self.logger.print("=== FISH CATCHED 🐟 ===")
                 else:
                     self.logger.print("=== TRASH FOUND 🗑️ ===")
-                self.input_handler.close_fish_window()
+                self.game_interface.close_fish_window()
         self.exit()
 
     def exit(self):
-        self.input_handler.close_window()
+        self.game_interface.close_window()
 
         

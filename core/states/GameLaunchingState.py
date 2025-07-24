@@ -1,4 +1,5 @@
 from core.states.BaseState import BaseState
+from core.Errors import GameLaunchedFailError
 from core.Process import start_game, kill_game_process
 
 import time
@@ -20,19 +21,15 @@ class GameLaunchingState(BaseState):
         self.logger.print("Game launched")
         self.window_handler.attach_bit_heroes_window()
         self.logger.print("Bit Heroes window attached")
-        self.memory_reader.start()
-        start_time = time.time()
-        while not self.memory_reader.is_game_running():
-            if time.time() - start_time > 60:
+        for attempt in range(3):
+            if self.game_interface.wait_till_ready(self.game_interface.is_game_ready):
+                break
+            else:
                 self.logger.print("Timeout: Game failed to launch within 60 seconds.")
-                if self.attempts == 3:
-                    raise Exception("Game failed to launch after 3 attempts.")
-                self.attempts += 1
-                self.logger.print("Killing game...")
+                self.logger.print(f"Attempting to launch the game again (attempt {attempt + 2}/3)...")
                 kill_game_process()
-                self.change_state(self.state_machine.game_launching_state)
-        self.attempts = 0
-        time.sleep(5)
+                start_game(self.general_settings_config.game_path)
+            raise GameLaunchedFailError()
         self.exit()
 
     def exit(self):

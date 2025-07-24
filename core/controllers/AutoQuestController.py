@@ -58,7 +58,7 @@ class AutoQuestController(ConfigurationControllerModel):
         self.view.set_dungeon_error( not is_dungeon_ready)
         self.view.set_familiar_error( not is_familiar_ready)
 
-        if is_zone_ready and is_dungeon_ready and is_familiar_ready:
+        if (is_zone_ready and is_dungeon_ready and is_familiar_ready) or not self.model.is_enabled:
             self.view.set_tab_error(False)
             self.logger.print("Auto Quest configuration checks passed ✅")
             return True
@@ -69,7 +69,7 @@ class AutoQuestController(ConfigurationControllerModel):
             if not is_dungeon_ready:
                 self.logger.print("Auto Quest configuration error: Dungeon not selected ❌")
             if not is_familiar_ready:
-                self.logger.print("Auto Quest configuration error: Auto persuasion is enabled but no familiar is selected ❌")
+                self.logger.print("Auto Quest configuration error: Auto persuasion is enabled but no familiar is selected ❌ (Scroll down if you can't see the familiar table)")
             return False
 
     def disable_view(self):

@@ -11,10 +11,9 @@ class AutoFishingBehavior(BaseState):
         pass
     
     def execute(self):
-        self.input_handler.click_fish_menu()
-        self.input_handler.click_fish_play()
-        while not self.screenshot_tool.is_fishing_state():
-            self.state_machine.check_if_stopped()
+        self.game_interface.click_fish_menu()
+        self.game_interface.click_fish_play()
+        while not self.game_interface.is_fishing_state():
             sleep(0.01)
         self.state_machine.change_state(FishingState(self.state_machine))
     

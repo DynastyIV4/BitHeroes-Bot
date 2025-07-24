@@ -14,30 +14,29 @@ class PersuasionState(BaseState):
     def execute(self):
         if self.auto_quest_config.is_persuasion_enabled:
             sleep(1)
-            text_screenshot = self.screenshot_tool.take_persuasion_screenshot()
+            text_screenshot = self.game_interface.take_persuasion_screenshot()
             is_found, name = FamiliarIdentifier.identify(text_screenshot, self.auto_quest_config.familiar_names)
             self.logger.print(f"Familiar found: {name}")
             if is_found and self.auto_quest_config.is_persuasion_enabled:
-                self.input_handler.click_accept_familiar()
-                self.input_handler.click_confirm_familiar()
+                self.game_interface.click_accept_familiar()
+                self.game_interface.click_confirm_familiar()
                 sleep(3)
-                if self.screenshot_tool.persuasion_has_succeeded():
+                if self.game_interface.persuasion_has_succeeded():
                     self.logger.print("Persuasion succeeded! 🎉")
                     self.game_stats.increment_familiar_encountered()
-                    self.input_handler.close_window()
+                    self.game_interface.close_window()
                 else:
                     self.logger.print("Persuasion failed ❌")
             elif (self.auto_quest_config.auto_decline_familiar):
                 self.logger.print("Auto-declining...")
-                self.input_handler.click_decline_familiar()
-                self.input_handler.click_confirm_familiar()
+                self.game_interface.click_decline_familiar()
+                self.game_interface.click_confirm_familiar()
         elif self.auto_quest_config.auto_decline_familiar:
             self.logger.print("Auto-declining...")
-            self.input_handler.click_decline_familiar()
-            self.input_handler.click_confirm_familiar()
+            self.game_interface.click_decline_familiar()
+            self.game_interface.click_confirm_familiar()
 
-        while self.memory_reader.is_in_persuasion_state():
-            self.state_machine.check_if_stopped()
+        while self.game_interface.is_in_persuasion_state():
             pass
         self.exit()
 

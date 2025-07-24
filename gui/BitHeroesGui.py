@@ -18,7 +18,7 @@ from core.constants.ConfigData import VERSION
 
 from customtkinter import CTk, CTkFrame, CTkLabel, ThemeManager
 
-class BotHeroesGui(CTk):
+class BitHeroesGui(CTk):
     def __init__(self):
         super().__init__()
         self.resizable(True, False) 
@@ -83,7 +83,11 @@ class BotHeroesGui(CTk):
                                 corner_radius=LOG_CORNER_RADIUS)
         
         self.on_off_button = OnOffButtonView(container_third_row)
-        self.version_label = CTkLabel(self, text=VERSION, font=VERSION_FONT, fg_color=ThemeManager.theme["CTkTextbox"]["fg_color"])
+        
+        self.version_label = CTkLabel(self, text=VERSION, 
+                                      font=VERSION_FONT, 
+                                      fg_color=ThemeManager.theme["CTkTextbox"]["fg_color"], 
+                                      height=20)
 
 
         container_frame.pack(side="left", padx=(0, GAME_FRAME_PADDING), pady = GAME_FRAME_PADDING, fill="x")

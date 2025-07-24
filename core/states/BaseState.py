@@ -5,9 +5,7 @@ class BaseState(ABC):
     def __init__(self, state_machine):
         from core.StateMachine import StateMachine
         from core.AutomationMachine import AutomationMachine
-        from core.MemoryReader import MemoryReader
-        from core.InputHandler import InputHandler
-        from core.ScreenshotTool import ScreenshotTool
+        from core.GameInterface import GameInterface
         from core.configurations.AutoFishConfiguration import AutoFishConfiguration
         from core.configurations.AutoQuestConfiguration import AutoQuestConfiguration
         from core.configurations.GeneralSettings import GeneralSettingsConfiguration
@@ -18,9 +16,7 @@ class BaseState(ABC):
 
         self.state_machine: StateMachine = state_machine
         self.automation_machine: AutomationMachine = self.state_machine.automation_machine
-        self.memory_reader: MemoryReader = self.state_machine.memory_reader
-        self.input_handler: InputHandler = self.state_machine.input_handler
-        self.screenshot_tool: ScreenshotTool = self.state_machine.screenshot_tool
+        self.game_interface: GameInterface = self.state_machine.game_interface
         self.logger: CTkLogger = self.state_machine.logger
         self.auto_quest_config: AutoQuestConfiguration = self.state_machine.auto_quest_config
         self.auto_fish_config: AutoFishConfiguration = self.state_machine.auto_fish_config

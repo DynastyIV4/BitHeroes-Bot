@@ -1,6 +1,6 @@
 from gui.widgets.CTkLogger import CTkLogger
 from core.models.Coordinates import Coordinates
-from core.constants.ConfigData import BIT_HEROES_WINDOW_TITLE, BOT_HEROES_WINDOW_TITLE
+from core.constants.ConfigData import BIT_HEROES_WINDOW_TITLE, BIT_HEROES_BOT_WINDOW_TITLE
 from core.constants.GuiData import APPLICATION_NAME, GAME_FRAME_INTERNAL_PADDING, GAME_FRAME_PADDING, WINDOWS_TOP_BAR_HEIGHT, WINDOWS_LEFT_BAR_WIDTH, \
                                    RECTANGLE_MASK, CONTAINER_FRAME_RADIUS, BIT_HEROES_SIZE, BIT_HEROES_SIZE_2
 from core.Errors import UnableToFocusError
@@ -19,10 +19,10 @@ class WindowHandler:
 
     def focus_window(self):
         try:
-            bot_heroes_window = getWindowsWithTitle(BOT_HEROES_WINDOW_TITLE)
-            if bot_heroes_window:
-                bot_heroes_window[0].activate()
-                sleep(0.01)  # Give time for OS to process
+            bit_heroes_bot_window = getWindowsWithTitle(BIT_HEROES_BOT_WINDOW_TITLE)
+            if bit_heroes_bot_window:
+                bit_heroes_bot_window[0].activate()
+                sleep(0.001)  # Give time for OS to process
             else:
                 raise UnableToFocusError("Bot Heroes")
 
@@ -83,8 +83,20 @@ class WindowHandler:
             win32con.SWP_NOZORDER | win32con.SWP_NOACTIVATE
         )
         win32gui.ShowWindow(self._hwnd, win32con.SW_SHOW)
-        win32gui.SetForegroundWindow(self._hwnd)
+
+        try:
+            win32gui.SetForegroundWindow(self._hwnd)
+        except Exception:
+            raise UnableToFocusError("Bit Heroes")
     
+    def is_game_running(self):
+        bit_heroes_windows = []
+        win32gui.EnumWindows(
+            lambda hwnd, windows: windows.append(hwnd) if win32gui.IsWindowVisible(hwnd) and win32gui.GetWindowText(hwnd) == BIT_HEROES_WINDOW_TITLE else None,
+            bit_heroes_windows
+        )
+        return bool(bit_heroes_windows)
+
     @staticmethod
     def get_game_dimension() -> tuple:
         window = getWindowsWithTitle(APPLICATION_NAME)[0]

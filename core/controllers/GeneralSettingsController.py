@@ -3,17 +3,17 @@ from core.configurations.GeneralSettings import GeneralSettingsConfiguration, Ap
 from core.constants.GuiData import APPEARANCE_MODE
 from gui.views.SettingsTabView import SettingsTabView
 from gui.widgets.CTkLogger import CTkLogger
-from gui.BotHeroesGui import BotHeroesGui
+from gui.BitHeroesGui import BitHeroesGui
 
 from customtkinter import set_appearance_mode, filedialog
 import os
 
 class GeneralSettingsController(ConfigurationControllerModel):
 
-    def __init__(self, model: GeneralSettingsConfiguration , view: SettingsTabView, bot_heroes_gui: BotHeroesGui, logger: CTkLogger ):
+    def __init__(self, model: GeneralSettingsConfiguration , view: SettingsTabView, bit_heroes_gui: BitHeroesGui, logger: CTkLogger ):
         self.model = model
         self.view = view
-        self.bot_heroes_gui = bot_heroes_gui
+        self.bit_heroes_gui = bit_heroes_gui
         self.logger = logger
 
         super().__init__()
@@ -26,7 +26,7 @@ class GeneralSettingsController(ConfigurationControllerModel):
         self.view.set_appearance_default_selection(APPEARANCE_MODE[1]) # Forced to dark until Light is working
         self.view.set_game_path_value(self.model.game_path)
         self._apply_appearance_mode(APPEARANCE_MODE[self.model.appearance_mode])
-        self.bot_heroes_gui.set_always_on_top(self.model.is_always_on_top)
+        self.bit_heroes_gui.set_always_on_top(self.model.is_always_on_top)
 
     
     def _bind_callbacks(self):
@@ -73,7 +73,7 @@ class GeneralSettingsController(ConfigurationControllerModel):
     
     def _on_always_on_top_changed(self, value: bool):
         self.model.is_always_on_top = value
-        self.bot_heroes_gui.set_always_on_top(value)
+        self.bit_heroes_gui.set_always_on_top(value)
     
     # ######################
     # Logic methods

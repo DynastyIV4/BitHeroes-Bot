@@ -38,7 +38,7 @@ class AutoFishController(ConfigurationControllerModel):
 
         self.view.set_worms_error(not are_worms_ready)
  
-        if are_worms_ready:
+        if are_worms_ready or not self.model.is_enabled:
             self.view.set_tab_error(False)
             self.logger.print("Auto Fish configuration checks passed ✅")
             return True

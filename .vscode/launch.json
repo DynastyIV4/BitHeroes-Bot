@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "BotHeroes.py",
+            "name": "BitHeroesBot.py",
             "type": "debugpy",
             "request": "launch",
-            "program": "BotHeroes.py",
+            "program": "BitHeroesBot.py",
             "console": "integratedTerminal"
         }
     ]
