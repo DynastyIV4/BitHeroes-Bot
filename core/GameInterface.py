@@ -142,13 +142,14 @@ class GameInterface(Subscriber, Publisher):
         self._input_handler.close_windows(self.is_home_state)
     
     def click_zone_up_arrow(self):
-        self._input_handler.click(COORDINATES["zone_up_arrow"])
+        self._input_handler.click(COORDINATES["zone_up_arrow"], delay=0)
     
     def click_zone_box(self, box: int):
         self._input_handler.click(COORDINATES[f"zone_box_{box}"])
     
-    def click_zone_down_arrow(self):
-        self._input_handler.click(COORDINATES["zone_down_arrow"])
+    def click_zone_down_arrow(self, count: int):
+        for _ in range(count):
+            self._input_handler.click(COORDINATES["zone_down_arrow"], delay=0)
 
     # Fishing
     def click_worm_window(self):
