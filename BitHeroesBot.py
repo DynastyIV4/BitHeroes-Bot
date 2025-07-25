@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
     screenshot_tool = ScreenshotTool(window_handler)
     input_handler = InputHandler(window_handler, logger)
-    game_interface = GameInterface(input_handler, screenshot_tool)
+    game_interface = GameInterface(input_handler, screenshot_tool, window_handler)
 
     state_machine = StateMachine(game_interface, 
                                  auto_quest_model, 

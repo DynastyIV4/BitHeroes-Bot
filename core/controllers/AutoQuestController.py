@@ -50,6 +50,12 @@ class AutoQuestController(ConfigurationControllerModel):
         self.view.enabled_callback = self._on_enabled_changed
 
     def is_configuration_ready(self):
+        if not self.model.is_enabled:
+            self.view.set_zone_error(False)
+            self.view.set_dungeon_error(False)
+            self.view.set_familiar_error(False)
+            return True
+        
         is_zone_ready = self.model.zone != 0
         is_dungeon_ready = self.model.dungeon != 0
         is_familiar_ready = ( self.model.is_persuasion_enabled and len(self.model.familiar_names) > 0) or not self.model.is_persuasion_enabled
@@ -58,7 +64,7 @@ class AutoQuestController(ConfigurationControllerModel):
         self.view.set_dungeon_error( not is_dungeon_ready)
         self.view.set_familiar_error( not is_familiar_ready)
 
-        if (is_zone_ready and is_dungeon_ready and is_familiar_ready) or not self.model.is_enabled:
+        if is_zone_ready and is_dungeon_ready and is_familiar_ready:
             self.view.set_tab_error(False)
             self.logger.print("Auto Quest configuration checks passed ✅")
             return True
@@ -115,10 +121,15 @@ class AutoQuestController(ConfigurationControllerModel):
                 self.model.familiar_names = [familiar.name for familiar in familiars]
             else:
                 raise Exception("A familiar has not been found by its name")
+        else:
+            self.model.familiar_names = []
 
     def _on_enabled_changed(self, is_enabled: bool):
         self.model.is_enabled = is_enabled
         self.view.is_enabled = is_enabled
+        if not self.model.is_persuasion_enabled:
+            self.view.set_familiar_enabled(False)
+            self.view.set_decline_enabled(False)
     
     def _on_difficulty_changed(self, value: str):
         self.model.difficulty = DungeonDifficulty[value]

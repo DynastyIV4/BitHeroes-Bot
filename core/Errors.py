@@ -47,6 +47,11 @@ class UnableToFocusError(CustomException):
     def __init__(self, window_name:str):
         super().__init__(f"Unable to focus the {window_name} window. The window is most probably minimized.")
 
+class UnableToFindWindow(CustomException):
+    """Custom exception raised when the required window cannot be found, probably because it is closed."""
+    def __init__(self, window_name: str):
+        super().__init__(f"Unable to find the window: {window_name}. It is probably closed.")
+
 class EnergyRefillNotHandled(CustomException):
     """Custom exception raised when waiting for energy to refill is not supported."""
     def __init__(self):
@@ -56,3 +61,8 @@ class PixelColorMismatchError(CustomException):
     """Custom exception raised when the pixel color does not match the expected value."""
     def __init__(self):
         super().__init__("Pixel color mismatch. This may happen if the mouse is hovered over the game.")
+
+class TimeoutStateError(CustomException):
+    """Custom exception raised when waiting for a state to end takes too much time."""
+    def __init__(self, state: str, waited_seconds: float):
+        super().__init__(f"Timeout while waiting for state '{state}' to end. Waited {waited_seconds} seconds.")

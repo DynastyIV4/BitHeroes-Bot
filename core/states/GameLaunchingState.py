@@ -22,7 +22,7 @@ class GameLaunchingState(BaseState):
         self.window_handler.attach_bit_heroes_window()
         self.logger.print("Bit Heroes window attached")
         for attempt in range(3):
-            if self.game_interface.wait_till_ready(self.game_interface.is_game_ready):
+            if self.game_interface.wait_till_ready(self.game_interface.is_game_ready, raise_error=False):
                 break
             else:
                 self.logger.print("Timeout: Game failed to launch within 60 seconds.")

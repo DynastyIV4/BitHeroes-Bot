@@ -62,10 +62,11 @@
 <h2 align="center">Setup Instructions</h2>
 
 <ul align="center">
-    1. If your Steam Bit Heroes game is fullscreen, change it to windowed.<br>
-    2. Open the BitHeroes-Bot.exe.<br>
-    3. Set your game path, enable automation, and configure your settings inside BitHeroes-Bot.<br>
-    4. Click the ON/OFF button to start the auto-pilot.<br>
+    1. If your Steam Bit Heroes game is fullscreen, open the game and change it to windowed.<br>
+    2. Activate the in-game auto-pilot feature in Bit Heroes, as this bot is designed to complement it<br>
+    3. Open the BitHeroes-Bot.exe.<br>
+    4. Set your game path, enable automation, and configure your settings inside BitHeroes-Bot.<br>
+    5. Click the ON/OFF button to start the auto-pilot.<br>
 </ul>
 
 <h2 align="center">Currently Not Handled & Known Bugs</h2>

@@ -19,24 +19,24 @@ class ScreenshotTool(Publisher):
     
     def get_color_pixel(self, coordinates: Coordinates, focus: bool = True) -> tuple:
         try:
-            return self.screenshot(focus).getpixel(WindowHandler.get_absolute_coordinates(coordinates))
+            img = self.screenshot(focus)
+            pixels = img.load()
+            abs_x, abs_y = WindowHandler.get_absolute_coordinates(coordinates)
+            return pixels[abs_x, abs_y]
         except IndexError:
             raise UnableToFocusError("Bit Heroes")
-        
+
     def screenshot(self, focus: bool = True, *args, **kwargs) -> Image.Image:
         if focus:
             self.window_handler.focus_window()
         self.notify()
-        return screenshot(*args, **kwargs)
-        
-    
+        region = kwargs.get('region')
+        return screenshot(region=region) if region else screenshot()
+
     def matches_expected_color(self, color_coordinates: ColorCoordinates, focus: bool = True) -> bool:
         actual_pixel_color = self.get_color_pixel(color_coordinates, focus)
-        if (actual_pixel_color[0] == color_coordinates.color.red and \
-                actual_pixel_color[1] == color_coordinates.color.green and \
-                actual_pixel_color[2] == color_coordinates.color.blue):
-            return True
-        return False
+        expected = (color_coordinates.color.red, color_coordinates.color.green, color_coordinates.color.blue)
+        return actual_pixel_color[:3] == expected
     
     # =======================
     # PRIVATE METHODS

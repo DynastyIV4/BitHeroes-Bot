@@ -34,11 +34,15 @@ class AutoFishController(ConfigurationControllerModel):
         self.view.enabled_callback = self._on_enabled_changed
 
     def is_configuration_ready(self):
+        if not self.model.is_enabled:
+            self.view.set_worms_error(False)
+            return True
+        
         are_worms_ready = self.model.is_common or self.model.is_rare or self.model.is_epic or self.model.is_legendary
 
         self.view.set_worms_error(not are_worms_ready)
  
-        if are_worms_ready or not self.model.is_enabled:
+        if are_worms_ready:
             self.view.set_tab_error(False)
             self.logger.print("Auto Fish configuration checks passed ✅")
             return True

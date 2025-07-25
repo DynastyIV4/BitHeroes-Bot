@@ -29,8 +29,9 @@ class InputHandler(Publisher):
     # PUBLIC METHODS
     # =======================
 
-    def click(self, coordinates: Coordinates, delay: float = 0.5):
-        self.window_handler.focus_window()
+    def click(self, coordinates: Coordinates, delay: float = 0.5, focus: bool = True):
+        if focus:
+            self.window_handler.focus_window()
         try:
             self.notify()
             
@@ -75,8 +76,9 @@ class InputHandler(Publisher):
             raise InputControllerClickError("window")
         
     def fast_click(self, coordinates: Coordinates):
-        self.click(coordinates, delay=0)
+        self.click(coordinates, delay=0, focus=False)
     
-    def escape(self):
+    def escape(self, delay: float = 0.5):
         self._press("esc")
         self.logger.print("Pressed the escape key")
+        sleep(delay)

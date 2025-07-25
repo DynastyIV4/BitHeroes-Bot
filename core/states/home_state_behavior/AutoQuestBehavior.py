@@ -20,7 +20,7 @@ class AutoQuestBehavior(BaseState):
             self.game_interface.click_run_last_dungeon()
         self.game_interface.click_accept_team()
 
-        if ( self.game_interface.is_refill_energy_window_open() ):
+        if self.game_interface.is_refill_energy_window_open():
             self.automation_machine.is_quest_energy_available = False
         else:
             self.state_machine.change_state(DungeonState(self.state_machine))

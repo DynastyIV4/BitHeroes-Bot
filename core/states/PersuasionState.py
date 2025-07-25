@@ -17,7 +17,7 @@ class PersuasionState(BaseState):
             text_screenshot = self.game_interface.take_persuasion_screenshot()
             is_found, name = FamiliarIdentifier.identify(text_screenshot, self.auto_quest_config.familiar_names)
             self.logger.print(f"Familiar found: {name}")
-            if is_found and self.auto_quest_config.is_persuasion_enabled:
+            if is_found:
                 self.game_interface.click_accept_familiar()
                 self.game_interface.click_confirm_familiar()
                 sleep(3)
@@ -31,13 +31,16 @@ class PersuasionState(BaseState):
                 self.logger.print("Auto-declining...")
                 self.game_interface.click_decline_familiar()
                 self.game_interface.click_confirm_familiar()
+            else:
+                self.logger.print("Auto-decline is disabled. Waiting for user action...")
+                self.game_interface.wait_till_ready(self.game_interface.is_not_in_persuasion_state)
         elif self.auto_quest_config.auto_decline_familiar:
             self.logger.print("Auto-declining...")
             self.game_interface.click_decline_familiar()
             self.game_interface.click_confirm_familiar()
-
-        while self.game_interface.is_in_persuasion_state():
-            pass
+        else:
+            self.logger.print("Auto-persuade feature is disabled, waiting for user, in-game auto-persuade or auto-decline to take action")
+            self.game_interface.wait_till_ready(self.game_interface.is_not_in_persuasion_state)
         self.exit()
 
     def exit(self):
