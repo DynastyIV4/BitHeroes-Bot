@@ -5,7 +5,7 @@
 from core.models.Coordinates import Coordinates
 from core.models.ColorCoordinates import ColorCoordinates
 
-COORDINATES = {
+COORDINATES_AUTO_GENERATED = {
     "dungeon": {
         "1": {
             "1": Coordinates(197, 338),
@@ -170,7 +170,7 @@ COORDINATES = {
     "is_persuasion_state": ColorCoordinates(606, 334, 166, 211, 52),
     "is_dungeon_finished": ColorCoordinates(500, 490, 237, 79, 86),
     "no_button_not_enough_energy": ColorCoordinates(463, 373, 31, 171, 208),
-    "zone_button": Coordinates(113, 82),
+    "zone_button": Coordinates(111, 101),
     "is_zone_scrollbar_first_position": ColorCoordinates(496, 157, 153, 156, 160),
     "is_quest_window_open": ColorCoordinates(136, 99, 22, 150, 181),
     "is_accept_team_window_open": ColorCoordinates(323, 486, 211, 112, 31),
