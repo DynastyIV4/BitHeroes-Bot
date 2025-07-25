@@ -23,8 +23,8 @@ class AutoQuestConfiguration(BaseSettings):
     zone: int = 0
     dungeon: int = 0
     difficulty: DungeonDifficulty = DungeonDifficulty.HEROIC
-    is_persuasion_enabled: bool = False
-    auto_decline_familiar: bool = False
+    is_persuasion_enabled: bool = True
+    auto_decline_familiar: bool = True
     familiar_names: list[str] = field(default_factory=list)
 
     _file_path: str = field(default=None)
