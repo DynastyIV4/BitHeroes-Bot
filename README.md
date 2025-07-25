@@ -18,7 +18,7 @@
 
 <p align="center">
     BitHeroes-Bot acts as a smarter auto-pilot than the in-game version by automatically launching the game, rerunning quest dungeons, and fishing for you. It embeds Bit Heroes inside its own window for an all-in-one tool. 
-    <br>Note: The auto-pilot does not function if the game is closed or minimized and is <strong>is not intended for offline use</strong>.
+    <br><strong>Note:</strong> The auto-pilot does not function if the game is closed or minimized and <strong>is not intended for offline use</strong>.
 </p>
 
 <h2 align="center">Features</h2>
