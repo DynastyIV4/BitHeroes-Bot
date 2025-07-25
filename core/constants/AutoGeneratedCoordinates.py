@@ -5,7 +5,7 @@
 from core.models.Coordinates import Coordinates
 from core.models.ColorCoordinates import ColorCoordinates
 
-COORDINATES_AUTO_GENERATED = {
+COORDINATES = {
     "dungeon": {
         "1": {
             "1": Coordinates(197, 338),
