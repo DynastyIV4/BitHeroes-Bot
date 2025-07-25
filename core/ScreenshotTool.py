@@ -4,7 +4,7 @@ from core.WindowHandler import WindowHandler
 from core.Observer import Publisher
 from core.Errors import UnableToFocusError
 
-from pyautogui import screenshot
+import mss
 from PIL import Image
 
 class ScreenshotTool(Publisher):
@@ -16,6 +16,7 @@ class ScreenshotTool(Publisher):
     def __init__(self, window_handler: WindowHandler):
         super().__init__()
         self.window_handler = window_handler
+        # self.sct = mss.mss()  # Remove this line to avoid sharing mss instance across threads
     
     def get_color_pixel(self, coordinates: Coordinates, focus: bool = True) -> tuple:
         try:
@@ -30,8 +31,17 @@ class ScreenshotTool(Publisher):
         if focus:
             self.window_handler.focus_window()
         self.notify()
+        
         region = kwargs.get('region')
-        return screenshot(region=region) if region else screenshot()
+        with mss.mss() as sct:
+            if region:
+                x, y, width, height = region
+                mss_region = {"top": y, "left": x, "width": width, "height": height}
+                sct_img = sct.grab(mss_region)
+                return Image.frombytes("RGB", sct_img.size, sct_img.bgra, "raw", "BGRX")
+            else:
+                sct_img = sct.grab(sct.monitors[0])  
+                return Image.frombytes("RGB", sct_img.size, sct_img.bgra, "raw", "BGRX")
 
     def matches_expected_color(self, color_coordinates: ColorCoordinates, focus: bool = True) -> bool:
         actual_pixel_color = self.get_color_pixel(color_coordinates, focus)
