@@ -45,7 +45,8 @@ COORDINATES = {
         },
         "7": {
             "1": Coordinates(170, 331),
-            "2": Coordinates(356, 300),
+            "2": Coordinates(515, 205),
+            "3": Coordinates(356, 300),
         },
         "8": {
             "1": Coordinates(531, 184),
