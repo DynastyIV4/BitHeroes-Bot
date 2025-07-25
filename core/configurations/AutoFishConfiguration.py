@@ -4,7 +4,7 @@ from core.configurations.BaseSettings import BaseSettings
 @dataclass
 class AutoFishConfiguration(BaseSettings):
 
-    is_enabled: bool = False
+    is_enabled: bool = True
     is_rare: bool = False
     is_legendary: bool = False
     is_epic: bool = False
