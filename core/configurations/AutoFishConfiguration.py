@@ -1,8 +1,8 @@
 from dataclasses import dataclass, field
-from core.configurations.BaseSettings import BaseSettings
+from core.configurations.ConfigurationBase import ConfigurationBase
 
 @dataclass
-class AutoFishConfiguration(BaseSettings):
+class AutoFishConfiguration(ConfigurationBase):
 
     is_enabled: bool = True
     is_rare: bool = False
@@ -10,4 +10,6 @@ class AutoFishConfiguration(BaseSettings):
     is_epic: bool = False
     is_common: bool = False
 
-    _file_path: str = field(default=None)
+    def __init__(self, file_path):
+        super().__init__(file_path)
+        

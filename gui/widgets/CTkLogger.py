@@ -1,7 +1,6 @@
 from gui.widgets.MyCTkToolTip import MyCTkToolTip
 
 from customtkinter import CTkTextbox
-from datetime import datetime
 
 class CTkLogger(CTkTextbox):
 
@@ -13,7 +12,7 @@ class CTkLogger(CTkTextbox):
 
     def print(self, text: str):
         self.configure(state="normal")
-        self.insert("end", self.time_header() + text + "\n")
+        self.insert("end", text + "\n")
         self.see("end")
         self.configure(state="disabled")
     
@@ -25,9 +24,3 @@ class CTkLogger(CTkTextbox):
             self.delete(last_line_start, "end-1c")
         self.insert("end", self.time_header() + text + "\n")
         self.configure(state="disabled")
-    
-    def time_header(self) -> str:
-        return datetime.now().strftime("%H:%M") + ": "
-    
-    
-

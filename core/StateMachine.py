@@ -4,7 +4,7 @@ from core.states.HomeState import HomeState
 from core.AutomationMachine import AutomationMachine
 from core.configurations.AutoQuestConfiguration import AutoQuestConfiguration
 from core.configurations.AutoFishConfiguration import AutoFishConfiguration
-from core.configurations.GeneralSettings import GeneralSettingsConfiguration
+from core.configurations.GeneralSettingsConfiguration import GeneralSettingsConfiguration
 from core.WindowHandler import WindowHandler
 from core.GameInterface import GameInterface
 from core.Errors import CustomException, AutoPilotStoppedByButtonError

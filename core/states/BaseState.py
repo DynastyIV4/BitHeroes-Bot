@@ -8,7 +8,7 @@ class BaseState(ABC):
         from core.GameInterface import GameInterface
         from core.configurations.AutoFishConfiguration import AutoFishConfiguration
         from core.configurations.AutoQuestConfiguration import AutoQuestConfiguration
-        from core.configurations.GeneralSettings import GeneralSettingsConfiguration
+        from core.configurations.GeneralSettingsConfiguration import GeneralSettingsConfiguration
         from core.GameStats import GameStats
         from core.ZoneData import ZoneData
         from core.WindowHandler import WindowHandler

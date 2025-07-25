@@ -2,12 +2,14 @@ from core.StateMachine import StateMachine
 from core.controllers.AutoQuestController import AutoQuestController
 from core.controllers.AutoFishController import AutoFishController
 from core.controllers.GeneralSettingsController import GeneralSettingsController
+from core.controllers.LoggerController import LoggerController
 from core.controllers.InfoController import InfoController
 from core.WindowHandler import WindowHandler
 from core.configurations.AutoQuestConfiguration import AutoQuestConfiguration
 from core.configurations.AutoFishConfiguration import AutoFishConfiguration
-from core.configurations.GeneralSettings import GeneralSettingsConfiguration
+from core.configurations.GeneralSettingsConfiguration import GeneralSettingsConfiguration
 from core.GameStats import GameStats
+from core.Logger import Logger
 from core.GameInterface import GameInterface
 from core.ZoneData import ZoneData
 from core.InputHandler import InputHandler
@@ -24,31 +26,32 @@ if __name__ == '__main__':
     ApplicationSetup.load()
 
     bit_heroes_gui = BitHeroesGui() 
-    logger = bit_heroes_gui.get_ctk_logger()
 
-    auto_quest_model = AutoQuestConfiguration(_file_path=AUTO_QUEST_DATA_FILE)  
-    auto_fish_model = AutoFishConfiguration(_file_path=AUTO_FISH_DATA_FILE)
-    general_settings_model = GeneralSettingsConfiguration(_file_path=GENERAL_SETTINGS_DATA_FILE)
+    auto_quest_configuration = AutoQuestConfiguration(AUTO_QUEST_DATA_FILE)  
+    auto_fish_configuration = AutoFishConfiguration(AUTO_FISH_DATA_FILE)
+    general_settings_configuration = GeneralSettingsConfiguration(GENERAL_SETTINGS_DATA_FILE)
 
     game_stats = GameStats()
+    logger = Logger()
     zone_data = ZoneData()
     familiar_data = FamiliarData(zone_data)
 
-    quest_controller = AutoQuestController(auto_quest_model, bit_heroes_gui.get_auto_quest_tab(), familiar_data, zone_data, logger)
-    fish_controller = AutoFishController(auto_fish_model, bit_heroes_gui.get_auto_fish_tab(), logger)
-    settings_controller = GeneralSettingsController(general_settings_model, bit_heroes_gui.get_settings_tab(), bit_heroes_gui, logger)
+    quest_controller = AutoQuestController(auto_quest_configuration, bit_heroes_gui.get_auto_quest_tab(), familiar_data, zone_data, logger)
+    fish_controller = AutoFishController(auto_fish_configuration, bit_heroes_gui.get_auto_fish_tab(), logger)
+    settings_controller = GeneralSettingsController(general_settings_configuration, bit_heroes_gui.get_settings_tab(), bit_heroes_gui, logger)
     info_controller = InfoController(bit_heroes_gui.get_info_tab(), logger)
     stats_controller = StatsController(bit_heroes_gui.get_dungeon_stat(), bit_heroes_gui.get_familiar_stat(), bit_heroes_gui.get_fish_stat(), game_stats)
-    window_handler = WindowHandler(bit_heroes_gui.get_game_container_frame_id())
+    logger_controller = LoggerController(logger, bit_heroes_gui.get_ctk_logger())
 
+    window_handler = WindowHandler(bit_heroes_gui.get_game_container_frame_id())
     screenshot_tool = ScreenshotTool(window_handler)
     input_handler = InputHandler(window_handler, logger)
     game_interface = GameInterface(input_handler, screenshot_tool, window_handler)
 
     state_machine = StateMachine(game_interface, 
-                                 auto_quest_model, 
-                                 auto_fish_model, 
-                                 general_settings_model, 
+                                 auto_quest_configuration, 
+                                 auto_fish_configuration, 
+                                 general_settings_configuration, 
                                  game_stats, 
                                  window_handler, 
                                  zone_data,

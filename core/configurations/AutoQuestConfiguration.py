@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from core.configurations.BaseSettings import BaseSettings
+from core.configurations.ConfigurationBase import ConfigurationBase
 
 from enum import Enum
 
@@ -17,7 +17,7 @@ ENERGY_DIFFICULTY = {
 ENERGY_COOLDOWN = 240 # in seconds
 
 @dataclass
-class AutoQuestConfiguration(BaseSettings):
+class AutoQuestConfiguration(ConfigurationBase):
 
     is_enabled: bool = True
     zone: int = 0
@@ -27,4 +27,6 @@ class AutoQuestConfiguration(BaseSettings):
     auto_decline_familiar: bool = True
     familiar_names: list[str] = field(default_factory=list)
 
-    _file_path: str = field(default=None)
+    def __init__(self, file_path: str):
+        self.familiar_names = []
+        super().__init__(file_path)
