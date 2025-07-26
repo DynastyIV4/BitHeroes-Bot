@@ -3,9 +3,11 @@ from core.text_identifiers.FamiliarIdentifier import FamiliarIdentifier
 
 import pytest 
 import pytesseract
+import os
 from PIL import Image
 
 def _test_identify_familiar(image_path: str, familiar_name: str) -> tuple[bool, str]:
+    
     pytesseract.pytesseract.tesseract_cmd = TESSERACT_PATH
     
     image = Image.open(f"tests/test_images/{image_path}")

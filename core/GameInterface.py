@@ -110,7 +110,7 @@ class GameInterface(Subscriber, Publisher):
         return not self._screenshot_tool.matches_expected_color(COORDINATES["is_game_not_running"], False)
     
     def is_game_ready(self) -> bool:
-        return self._screenshot_tool.matches_expected_color(COORDINATES["is_news_window_open"], False)
+        return self._screenshot_tool.matches_expected_color(COORDINATES["is_window_open_on_home_state"], False)
 
     # ==========================================
     # GAME INTERACTION METHODS
@@ -139,7 +139,7 @@ class GameInterface(Subscriber, Publisher):
         self._input_handler.click_menu(COORDINATES["zone_button"], "zone", self.is_quest_window_closed)
 
     def close_menu_windows(self):
-        self._input_handler.close_windows(self.is_home_state)
+        self._input_handler.close_windows(self.is_home_state, attempts=8)
     
     def click_zone_up_arrow(self):
         self._input_handler.click(COORDINATES["zone_up_arrow"], delay=0)

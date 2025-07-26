@@ -25,7 +25,7 @@ class GeneralSettingsController(ConfigurationControllerModel):
     def _apply_configuration(self):
         self.view.set_appearance_default_selection(APPEARANCE_MODE[1]) # Forced to dark until Light is working
         self.view.set_game_path_value(self.configuration.game_path)
-        self._apply_appearance_mode(APPEARANCE_MODE[self.configuration.appearance_mode])
+        self._apply_appearance_mode(self.configuration.appearance_mode)
         self.bit_heroes_gui.set_always_on_top(self.configuration.is_always_on_top)
 
     

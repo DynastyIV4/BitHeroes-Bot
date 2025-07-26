@@ -180,5 +180,5 @@ COORDINATES = {
     "is_zone_window_open": ColorCoordinates(206, 179, 151, 160, 172),
     "is_game_not_running": ColorCoordinates(369, 246, 51, 51, 51),
     "is_news_window_open": ColorCoordinates(591, 97, 201, 44, 45),
-    "is_window_open_on_home_state": ColorCoordinates(696, 120, 73, 10, 10),
+    "is_window_open_on_home_state": ColorCoordinates(695, 117, 73, 10, 10),
 }

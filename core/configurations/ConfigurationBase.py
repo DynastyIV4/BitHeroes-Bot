@@ -67,3 +67,8 @@ class ConfigurationBase(ABC):
             data[field.name] = value
         
         return data
+    
+    def __setattr__(self, name, value):
+        super().__setattr__(name, value)
+        if hasattr(self, '_file_path') and not name.startswith('_'):
+            self.save()
