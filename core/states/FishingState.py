@@ -18,13 +18,11 @@ class FishingState(BaseState):
             worms_to_select: list[WormRarity] = self.automation_machine.get_worm_to_select()
             if current_worm == WormRarity.NONE:
                 self.automation_machine.is_any_worm_available = False
-                self.logger.print("No worm is available 🪱")
             elif current_worm not in worms_to_select:
                 self.game_interface.click_worm_window()
                 available_worms = self.game_interface.get_available_worms()
                 first_matching_worm = next((worm for worm in worms_to_select if worm in available_worms), None)
                 if first_matching_worm is None:
-                    self.logger.print("You have used every worms you have enabled into the configuration. 🪱")
                     self.automation_machine.is_any_worm_available = False
                     break
                 self.game_interface.select_worm(first_matching_worm, available_worms)

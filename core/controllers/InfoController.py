@@ -1,13 +1,13 @@
 from core.controllers.ConfigurationControllerModel import ConfigurationControllerModel
 from core.constants.ConfigData import GITHUB_URL, DISCORD_URL, WIKI_URL
+from core.Logger import Logger
 from gui.views.InfoTabView import InfoTabView
-from gui.widgets.CTkLogger import CTkLogger
 
 import webbrowser
 
 class InfoController(ConfigurationControllerModel):
 
-    def __init__(self, view: InfoTabView, logger: CTkLogger ):
+    def __init__(self, view: InfoTabView, logger: Logger ):
         self.view = view
         self.logger = logger
 

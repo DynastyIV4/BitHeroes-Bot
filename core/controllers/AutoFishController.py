@@ -1,11 +1,11 @@
 from core.controllers.ConfigurationControllerModel import ConfigurationControllerModel
 from gui.views.AutoFishTabView import AutoFishTabView
 from core.configurations.AutoFishConfiguration import AutoFishConfiguration
-from gui.widgets.CTkLogger import CTkLogger
+from core.Logger import Logger
 
 class AutoFishController(ConfigurationControllerModel):
 
-    def __init__(self, model: AutoFishConfiguration , view: AutoFishTabView, logger: CTkLogger ):
+    def __init__(self, model: AutoFishConfiguration , view: AutoFishTabView, logger: Logger ):
         self.model = model
         self.view = view
         self.logger = logger

@@ -12,12 +12,12 @@ class BaseState(ABC):
         from core.GameStats import GameStats
         from core.ZoneData import ZoneData
         from core.WindowHandler import WindowHandler
-        from gui.widgets.CTkLogger import CTkLogger
+        from core.Logger import Logger
 
         self.state_machine: StateMachine = state_machine
         self.automation_machine: AutomationMachine = self.state_machine.automation_machine
         self.game_interface: GameInterface = self.state_machine.game_interface
-        self.logger: CTkLogger = self.state_machine.logger
+        self.logger: Logger = self.state_machine.logger
         self.auto_quest_config: AutoQuestConfiguration = self.state_machine.auto_quest_config
         self.auto_fish_config: AutoFishConfiguration = self.state_machine.auto_fish_config
         self.general_settings_config: GeneralSettingsConfiguration = self.state_machine.general_settings_config

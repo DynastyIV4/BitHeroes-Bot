@@ -1,6 +1,6 @@
 from core.controllers.ConfigurationControllerModel import ConfigurationControllerModel
 from core.StateMachine import StateMachine
-from gui.widgets.CTkLogger import CTkLogger
+from core.Logger import Logger
 from gui.views.OnOffButtonView import OnOffButtonView
 from core.GameInterface import GameInterface
 
@@ -14,7 +14,7 @@ class AutoPilotStarter:
                  button: OnOffButtonView,
                  state_machine: StateMachine, 
                  game_interface: GameInterface,
-                 logger: CTkLogger):
+                 logger: Logger):
         self.game_automation_controllers = game_automation_controllers
         self.settings_configuration_controllers = settings_configuration_controllers
         self.controllers = game_automation_controllers + settings_configuration_controllers

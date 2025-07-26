@@ -3,7 +3,7 @@ from core.WindowHandler import WindowHandler
 from core.Errors import InputControllerClickError
 from core.Observer import Publisher
 from core.constants.GuiData import APPLICATION_NAME
-from gui.widgets.CTkLogger import CTkLogger
+from core.Logger import Logger
 
 
 from pyautogui import click, moveTo, press, FailSafeException
@@ -11,7 +11,7 @@ from time import sleep
 
 class InputHandler(Publisher):
     
-    def __init__(self, window_handler: WindowHandler, logger: CTkLogger):
+    def __init__(self, window_handler: WindowHandler, logger: Logger):
         super().__init__()
         self.window_handler = window_handler
         self.logger = logger

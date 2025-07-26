@@ -11,7 +11,7 @@ from core.Errors import CustomException, AutoPilotStoppedByButtonError
 from core.Observer import Subscriber
 from core.ZoneData import ZoneData
 from core.GameStats import GameStats
-from gui.widgets.CTkLogger import CTkLogger
+from core.Logger import Logger
 
 class StateMachine(Subscriber):
     
@@ -23,7 +23,7 @@ class StateMachine(Subscriber):
                  game_stats: GameStats,
                  window_handler: WindowHandler,
                  zone_data: ZoneData,
-                 logger: CTkLogger):
+                 logger: Logger):
         super().__init__()
         self.game_interface = game_interface
         self.auto_quest_config = auto_quest_config

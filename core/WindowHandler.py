@@ -1,4 +1,4 @@
-from gui.widgets.CTkLogger import CTkLogger
+from core.Logger import Logger
 from core.models.Coordinates import Coordinates
 from core.constants.ConfigData import BIT_HEROES_WINDOW_TITLE, BIT_HEROES_BOT_WINDOW_TITLE
 from core.constants.GuiData import APPLICATION_NAME, GAME_FRAME_INTERNAL_PADDING, GAME_FRAME_PADDING, WINDOWS_TOP_BAR_HEIGHT, WINDOWS_LEFT_BAR_WIDTH, \
@@ -48,7 +48,6 @@ class WindowHandler:
         win32gui.EnumWindows(enum_windows_callback, bit_heroes_windows)
 
         if not bit_heroes_windows:
-            CTkLogger._instance.print(f"Window with title '{BIT_HEROES_WINDOW_TITLE}' not found.")
             return
 
         # Resize the Bit Heroes window before attaching and styling

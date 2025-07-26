@@ -3,13 +3,13 @@ from core.configurations.AutoQuestConfiguration import AutoQuestConfiguration, D
 from core.FamiliarData import FamiliarData
 from core.constants.GuiData import RARITY_COLORS, ZONE_FIRST_OPTION, DUNGEON_FIRST_OPTION
 from core.ZoneData import ZoneData, Zone
+from core.Logger import Logger
 from gui.views.AutoQuestTabView import AutoQuestTabView
-from gui.widgets.CTkLogger import CTkLogger
 
 
 class AutoQuestController(ConfigurationControllerModel):
 
-    def __init__(self, model: AutoQuestConfiguration , view: AutoQuestTabView, familiar_data: FamiliarData, zone_data: ZoneData, logger: CTkLogger ):
+    def __init__(self, model: AutoQuestConfiguration , view: AutoQuestTabView, familiar_data: FamiliarData, zone_data: ZoneData, logger: Logger ):
         self.model = model
         self.view = view
         self.familiar_data = familiar_data
