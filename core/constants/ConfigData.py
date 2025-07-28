@@ -36,5 +36,5 @@ BIT_HEROES_BOT_WINDOW_TITLE = "Bit Heroes Bot"
 # =======================
 
 GITHUB_URL = "https://github.com/elwoujdi/BitHeroes-Bot/issues/new/choose"
-DISCORD_URL = "https://discord.gg/EzMjmVjQ"
+DISCORD_URL = "https://discord.gg/yBBrUAd5zj"
 WIKI_URL = "https://github.com/elwoujdi/BitHeroes-Bot?tab=readme-ov-file#readme"
