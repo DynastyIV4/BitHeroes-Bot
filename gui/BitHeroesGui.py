@@ -3,12 +3,13 @@ from gui.views.FamiliarStatView import FamiliarStatView
 from gui.views.FishStatView import FishStatView
 from gui.views.AutoQuestTabView import AutoQuestTabView
 from gui.views.AutoFishTabView import AutoFishTabView
-from gui.views.SettingsTabView import SettingsTabView
+from gui.views.GeneralSettingsView import GeneralSettingsView
 from gui.views.InfoTabView import InfoTabView
 from gui.widgets.CTkTab import CTkTab
 from gui.widgets.CTkLogger import CTkLogger
 from gui.views.OnOffButtonView import OnOffButtonView
 from gui.views.AutoQuestTabView import AutoQuestTabView
+from gui.views.AdvancedSettingsView import AdvancedSettingsView
 
 from core.constants.GuiData import APPLICATION_NAME, WINDOW_SIZE, GAME_FRAME_SIZE, FRAME_CORNER_RADIUS, GAME_FRAME_PADDING, CONTAINER_FRAME_SIZE, \
     STAT_FRAME_PADDING, AUTO_FRAME_HEADER_FONT, AUTO_FRAME_SIZE, AUTO_FRAME_PADDING, AUTO_FRAME_CORNER_RADIUS, \
@@ -64,7 +65,7 @@ class BitHeroesGui(CTk):
                                            corner_radius=AUTO_FRAME_CORNER_RADIUS)
         
         self.software_configuration_tab = CTkTab(container_second_row, 
-                                             [SettingsTabView, InfoTabView],
+                                             [GeneralSettingsView, AdvancedSettingsView, InfoTabView],
                                              font=AUTO_FRAME_HEADER_FONT, 
                                              width=AUTO_FRAME_SIZE[0], 
                                              height=AUTO_FRAME_SIZE[1], 
@@ -118,11 +119,14 @@ class BitHeroesGui(CTk):
     def get_auto_fish_tab(self) -> AutoFishTabView:
         return self.game_automations_tab.tab_content_list[1]
     
-    def get_settings_tab(self) -> SettingsTabView:
+    def get_general_settings_tab(self) -> GeneralSettingsView:
         return self.software_configuration_tab.tab_content_list[0]
 
-    def get_info_tab(self) -> InfoTabView:
+    def get_advanced_settings_tab(self) -> AdvancedSettingsView:
         return self.software_configuration_tab.tab_content_list[1]
+    
+    def get_info_tab(self) -> InfoTabView:
+        return self.software_configuration_tab.tab_content_list[2]
     
     def get_button_on_off(self) -> OnOffButtonView:
         return self.on_off_button
@@ -135,7 +139,7 @@ class BitHeroesGui(CTk):
 
     def get_fish_stat(self) -> FishStatView:
         return self.fish_stat_frame
-    
+
     def get_game_container_frame_id(self) -> CTkFrame:
         return self.game_container_frame.winfo_id()
 

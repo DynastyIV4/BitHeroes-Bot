@@ -9,12 +9,12 @@ class LoggerController(Subscriber):
 
     def __init__(self, logger: Logger, logger_view: CTkLogger):
         super().__init__()
-        self.logger = logger
-        self.logger_view = logger_view
-        self.logger.subscribe(self)
+        self._logger = logger
+        self._logger_view = logger_view
+        self._logger.subscribe(self)
     
     def update(self):
-        self.logger_view.print(self.time_header() + self.logger.last_line_printed)
+        self._logger_view.print(self.time_header() + self._logger.get_last_line_printed())
     
     def time_header(self) -> str:
         return datetime.now().strftime("%H:%M") + ": "

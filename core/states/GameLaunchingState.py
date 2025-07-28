@@ -1,5 +1,6 @@
 from core.states.BaseState import BaseState
 from core.Errors import GameLaunchedFailError
+from core.WindowHandler import WindowHandler
 from core.Process import start_game, kill_game_process
 
 import time

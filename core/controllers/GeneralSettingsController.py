@@ -2,7 +2,7 @@ from core.controllers.ConfigurationControllerModel import ConfigurationControlle
 from core.configurations.GeneralSettingsConfiguration import GeneralSettingsConfiguration, AppearanceMode
 from core.constants.GuiData import APPEARANCE_MODE
 from core.Logger import Logger
-from gui.views.SettingsTabView import SettingsTabView
+from gui.views.GeneralSettingsView import GeneralSettingsView
 from gui.BitHeroesGui import BitHeroesGui
 
 from customtkinter import set_appearance_mode, filedialog
@@ -10,7 +10,7 @@ import os
 
 class GeneralSettingsController(ConfigurationControllerModel):
 
-    def __init__(self, configuration: GeneralSettingsConfiguration , view: SettingsTabView, bit_heroes_gui: BitHeroesGui, logger: Logger ):
+    def __init__(self, configuration: GeneralSettingsConfiguration , view: GeneralSettingsView, bit_heroes_gui: BitHeroesGui, logger: Logger ):
         self.configuration = configuration
         self.view = view
         self.bit_heroes_gui = bit_heroes_gui

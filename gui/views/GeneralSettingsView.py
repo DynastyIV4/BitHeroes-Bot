@@ -10,7 +10,7 @@ from gui.widgets.MyCTkToolTip import MyCTkToolTip
 from customtkinter import CTkOptionMenu, CTkLabel, CTkButton, CTkImage, CTkFrame, CTkCheckBox, ThemeManager
 from PIL import Image
 
-class SettingsTabView(TabContentViewModel):
+class GeneralSettingsView(TabContentViewModel):
 
     # ######################
     # Interface methods
