@@ -42,6 +42,6 @@ class Logger(Publisher):
         os.makedirs(LOG_FILE_PATH, exist_ok=True)
         file_path = os.path.join(LOG_FILE_PATH, self._file_name)
         with open(file_path, "w", encoding="utf-8") as f:
-            for line in getattr(self, 'all_lines_printed', []):
+            for line in self._all_lines_printed:
                 f.write(line + "\n")
     
