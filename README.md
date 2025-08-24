@@ -1,3 +1,6 @@
+> [!WARNING]
+> This tool is still in development. Please share your feedback by opening an issue or joining our Discord server.
+
 <h1 align="center">BitHeroes-Bot: A Better Auto Pilot</h1>
 <p align="center">
     <a href="https://github.com/elwoujdi/BitHeroes-Bot/stargazers"><img src="https://img.shields.io/github/stars/elwoujdi/BitHeroes-Bot" alt="Stars Badge"/></a>
