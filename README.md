@@ -1,5 +1,5 @@
 > [!WARNING]
-> This tool is still in development. Please share your feedback by opening an issue or joining our Discord server.
+> **This tool is still in development. Please share your feedback by opening an [issue](https://github.com/elwoujdi/BitHeroes-Bot/issues/new/choose) or joining our [Discord server](https://discord.gg/yBBrUAd5zj).**
 
 <h1 align="center">BitHeroes-Bot: A Better Auto Pilot</h1>
 <p align="center">
