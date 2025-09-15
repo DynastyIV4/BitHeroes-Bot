@@ -77,6 +77,7 @@
         <li>Starting a new dungeon for the first time may confuse the auto-pilot due to unhandled in-game dialogs and post-dungeon rewards.</li>
         <li>Automation will stop if the game window is minimized. Keep the game in the foreground and enable the "Always On Top" feature to prevent accidental minimization.</li>
         <li>Do not use in-game auto-persuade and auto-decline features if you use the bot's auto-persuade and auto-decline.</li>
+        <li>Make sure your windows zoom scale is at 100%, anything higher than that will break the auto-clicker</li>
     </ul>
 </ul>
 
