@@ -14,3 +14,4 @@ pyperclip==1.8.2
 pytesseract==0.3.13
 pytest==8.3.4
 pywin32==306
+PyInstaller==6.16.0
