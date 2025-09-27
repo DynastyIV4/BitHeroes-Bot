@@ -13,6 +13,14 @@ Welcome! Interested in contributing to BitHeroes-Bot? This guide will walk you t
    ```bash
    git clone https://github.com/your-username/BitHeroes-Bot.git
     ```
+1. Go Into the folder
+   ```bash 
+   cd .\BitHeroes-Bot\
+    ```
+1. Create a vritual environement
+   ```
+   python -m venv venv
+    ```
 1. Install the dependancies
    ```bash
    pip install -r requirements.txt
