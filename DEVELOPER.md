@@ -8,23 +8,39 @@ Welcome! Interested in contributing to BitHeroes-Bot? This guide will walk you t
 
 ## 🛠️ Setup
 
-1. Fork the repository
-1. Clone it locally:
+1. **Fork the repository** on GitHub.
+2. **Clone it locally:**
    ```bash
    git clone https://github.com/your-username/BitHeroes-Bot.git
-    ```
-1. Go Into the folder
-   ```bash 
-   cd .\BitHeroes-Bot\
-    ```
-1. Create a vritual environement
    ```
+3. **Go into the folder:**
+   ```bash
+   cd .\BitHeroes-Bot\
+   ```
+4. **Create a virtual environment:**
+   ```bash
    python -m venv venv
-    ```
-1. Install the dependancies
+   ```
+5. **Activate the virtual environment:**
+   - **Windows:**
+     ```bash
+     .\venv\Scripts\activate
+     ```
+   - **Unix/Mac:**
+     ```bash
+     source venv/bin/activate
+     ```
+6. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
-    ````
+   ```
+
+**Troubleshooting:**  
+- If `python` is not found, try `python3`.
+- If `pip` is missing, install it with `python -m ensurepip`.
+- If activation fails on Windows, ensure you are using PowerShell or CMD.
+
+---
 
 ## 📂 Project Structure
 - `core/`: Main bot logic and features.
@@ -35,7 +51,11 @@ Welcome! Interested in contributing to BitHeroes-Bot? This guide will walk you t
 - `BitHeroesBot.py`: Application entry point.
 
 ## 🚀 Contributing
-1. Make a fork 
+1. Make a fork
+1. Create a new branch for your feature or fix:
+   ```bash
+   git checkout -b feature/my-feature
+   ```
 1. Try to follow this repo naming style and leave helpful commit messages
 1. Submit a Pull Request to the main branch
 
@@ -60,6 +80,10 @@ Feel free to contribute new scripts or suggest improvements to existing ones!
 
 ## 🧪 Testing
 We currently need automated tests. Creating a UI mock for testing features would also be valuable. If you have experience with testing frameworks or UI prototyping, your contributions are welcome!
+- Automated tests should go in the `tests/` folder.
+- Use a framework like `pytest` for Python tests.
+- UI mockups and automated UI tests are welcome.
+- Run all tests before merging changes.
 
 ## 🙏 Contributions Needed
 - Completing all planned features for the v2 release
