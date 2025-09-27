@@ -12,10 +12,14 @@
     <a href="https://github.com/elwoujdi/BitHeroes-Bot/releases"><img src="https://img.shields.io/github/downloads/elwoujdi/BitHeroes-Bot/total.svg" alt="Download count"/></a>
     <a href="https://discord.gg/yBBrUAd5zj"><img src="https://img.shields.io/discord/1393093390115143750.svg?style=flat&label=Join%20Community&color=7289DA" alt="Join Community Badge"/></a>
 </p>
+
+<p align="center" style="margin-top: 10px;">
+    <img src="https://img.shields.io/badge/Official%20Version%201%20Release-90%25%20Complete-388e3c?style=for-the-badge" alt="Version 1 Progress" />
+</p>
+
 <p align="center">
     <img src="demo.gif" alt="Demo of BitHeroes-Bot" />
 </p>
-
 
 <p align="center">
     BitHeroes-Bot acts as a smarter auto-pilot than the in-game version by automatically launching the game, rerunning quest dungeons, and fishing for you. It embeds Bit Heroes inside its own window for an all-in-one tool. 
