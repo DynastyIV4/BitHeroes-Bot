@@ -23,10 +23,6 @@ Welcome! Interested in contributing to BitHeroes-Bot? This guide will walk you t
    pip install -r requirements.txt
    ```
 
-**Troubleshooting:**  
-- If `python` is not found, try `python3`.
-- If `pip` is missing, install it with `python -m ensurepip`.
-- If activation fails on Windows, ensure you are using PowerShell or CMD.
 
 ---
 
