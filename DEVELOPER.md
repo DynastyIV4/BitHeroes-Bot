@@ -18,11 +18,6 @@ Welcome! Interested in contributing to BitHeroes-Bot? This guide will walk you t
     ```bash
     pip install -r requirements.txt
     ```
-1. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 
 ## 📂 Project Structure
 - `core/`: Main bot logic and features.
