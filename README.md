@@ -39,10 +39,10 @@
 <h2 align="center">Upcoming in Version 2</h2>
 
 <ul align="center" style="list-style: none; padding-left: 0;">
-    <li><strong>Auto PVP</strong></li>
-    <li><strong>Auto Raid</strong></li>
-    <li><strong>Auto World Boss</strong></li>
-    <li><strong>+ 1 Community-Requested Feature!</strong></li>
+    <strong>Auto PVP</strong><br>
+    <strong>Auto Raid</strong><br>
+    <strong>Auto World Boss</strong><br>
+    <strong>+ 1 Community-Requested Feature!</strong>
 </ul>
 
 <p align="center">
@@ -56,10 +56,10 @@
 </p>
 
 <ul align="center" style="list-style: none; padding-left: 0;">
-    <li><strong>Auto Invasion</strong></li>
-    <li><strong>Auto Gauntlet</strong></li>
-    <li><strong>Auto Trials</strong></li>
-    <li><strong>Auto Expedition</strong></li>
+    <strong>Auto Invasion</strong><br>
+    <strong>Auto Gauntlet</strong><br>
+    <strong>Auto Trials</strong><br>
+    <strong>Auto Expedition</strong><br>
 </ul>
 
 <h2 align="center">Pre-requisites</h2>
