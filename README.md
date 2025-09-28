@@ -1,5 +1,5 @@
 > [!WARNING]
-> **This tool is still in development. Please share your feedback by opening an [issue](https://github.com/elwoujdi/BitHeroes-Bot/issues/new/choose) or joining our [Discord server](https://discord.gg/yBBrUAd5zj).**
+> **Version 2 of this tool is currently in development. Please share your feedback by opening an [issue](https://github.com/elwoujdi/BitHeroes-Bot/issues/new/choose) or joining our [Discord server](https://discord.gg/yBBrUAd5zj).**
 
 <h1 align="center">BitHeroes-Bot: A Better Auto Pilot</h1>
 <p align="center">
@@ -12,10 +12,14 @@
     <a href="https://github.com/elwoujdi/BitHeroes-Bot/releases"><img src="https://img.shields.io/github/downloads/elwoujdi/BitHeroes-Bot/total.svg" alt="Download count"/></a>
     <a href="https://discord.gg/yBBrUAd5zj"><img src="https://img.shields.io/discord/1393093390115143750.svg?style=flat&label=Join%20Community&color=7289DA" alt="Join Community Badge"/></a>
 </p>
+
+<p align="center" style="margin-top: 10px;">
+    <img src="https://img.shields.io/badge/Official%20Version%201%20Release-90%25%20Complete-388e3c?style=for-the-badge" alt="Version 1 Progress" />
+</p>
+
 <p align="center">
     <img src="demo.gif" alt="Demo of BitHeroes-Bot" />
 </p>
-
 
 <p align="center">
     BitHeroes-Bot acts as a smarter auto-pilot than the in-game version by automatically launching the game, rerunning quest dungeons, and fishing for you. It embeds Bit Heroes inside its own window for an all-in-one tool. 
@@ -32,19 +36,30 @@
     <strong>Always On Top 📌</strong>: Keeps the window on top to ensure clicks and keyboard inputs work, even when focus shifts to another app.
 </ul>
 
-<h2 align="center">Planned Features</h2>
+<h2 align="center">Upcoming in Version 2</h2>
+
+<ul align="center" style="list-style: none; padding-left: 0;">
+    <strong>Auto PVP</strong><br>
+    <strong>Auto Raid</strong><br>
+    <strong>Auto World Boss</strong><br>
+    <strong>+ 1 Community-Requested Feature!</strong>
+</ul>
 
 <p align="center">
-    If this project gets <strong>20+ stars</strong>, v2 will include:
+    <em>Suggest your favorite feature by opening an <a href="https://github.com/elwoujdi/BitHeroes-Bot/issues/new/choose">issue</a> or joining our <a href="https://discord.gg/yBBrUAd5zj">Discord</a>.</em>
 </p>
 
-<ul align="center">
-    Auto Raid<br>
-    Auto Gauntlet<br>
-    Auto Invasion<br>
-    Auto Trials<br>
-    Auto Expedition<br><br>
-    <strong>And one feature request of your choices 🌟</strong>
+<h2 align="center">Upcoming in Version 3</h2>
+
+<p align="center">
+    <strong>If this project gets 30+ stars 🌟, version 3 will include:</strong>
+</p>
+
+<ul align="center" style="list-style: none; padding-left: 0;">
+    <strong>Auto Invasion</strong><br>
+    <strong>Auto Gauntlet</strong><br>
+    <strong>Auto Trials</strong><br>
+    <strong>Auto Expedition</strong><br>
 </ul>
 
 <h2 align="center">Pre-requisites</h2>
