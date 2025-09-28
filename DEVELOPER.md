@@ -81,7 +81,7 @@ Feel free to contribute new scripts or suggest improvements to existing ones!
 ## 🧪 Testing
 We currently need automated tests. Creating a UI mock for testing features would also be valuable. If you have experience with testing frameworks or UI prototyping, your contributions are welcome!
 - Automated tests should go in the `tests/` folder.
-- Use a framework like `pytest` for Python tests.
+- Use the framework `pytest` for Python tests.
 - UI mockups and automated UI tests are welcome.
 - Run all tests before merging changes.
 
