@@ -36,19 +36,30 @@
     <strong>Always On Top 📌</strong>: Keeps the window on top to ensure clicks and keyboard inputs work, even when focus shifts to another app.
 </ul>
 
-<h2 align="center">Planned Features</h2>
+<h2 align="center">Upcoming in Version 2</h2>
+
+<ul align="center" style="list-style: none; padding-left: 0;">
+    <li><strong>Auto PVP</strong></li>
+    <li><strong>Auto Raid</strong></li>
+    <li><strong>Auto World Boss</strong></li>
+    <li><strong>+ 1 Community-Requested Feature!</strong></li>
+</ul>
 
 <p align="center">
-    If this project gets <strong>20+ stars</strong>, v2 will include:
+    <em>Suggest your favorite feature by opening an <a href="https://github.com/elwoujdi/BitHeroes-Bot/issues/new/choose">issue</a> or joining our <a href="https://discord.gg/yBBrUAd5zj">Discord</a>.</em>
 </p>
 
-<ul align="center">
-    Auto Raid<br>
-    Auto Gauntlet<br>
-    Auto Invasion<br>
-    Auto Trials<br>
-    Auto Expedition<br><br>
-    <strong>And one feature request of your choices 🌟</strong>
+<h2 align="center">Upcoming in Version 3</h2>
+
+<p align="center">
+    <strong>If this project gets 30+ stars 🌟, version 3 will include:</strong>
+</p>
+
+<ul align="center" style="list-style: none; padding-left: 0;">
+    <li><strong>Auto Invasion</strong></li>
+    <li><strong>Auto Gauntlet</strong></li>
+    <li><strong>Auto Trials</strong></li>
+    <li><strong>Auto Expedition</strong></li>
 </ul>
 
 <h2 align="center">Pre-requisites</h2>
