@@ -9,27 +9,15 @@ Welcome! Interested in contributing to BitHeroes-Bot? This guide will walk you t
 ## 🛠️ Setup
 
 1. **Fork the repository** on GitHub.
-2. **Clone it locally:**
-   ```bash
-   git clone https://github.com/your-username/BitHeroes-Bot.git
-   ```
-3. **Go into the folder:**
-   ```bash
-   cd .\BitHeroes-Bot\
-   ```
-4. **Create a virtual environment:**
-   ```bash
-   python -m venv venv
-   ```
-5. **Activate the virtual environment:**
-   - **Windows:**
-     ```bash
-     .\venv\Scripts\activate
-     ```
-   - **Unix/Mac:**
-     ```bash
-     source venv/bin/activate
-     ```
+    ```bash
+    git clone https://github.com/<your-username>/BitHeroes-Bot.git
+    cd BitHeroes-Bot
+    ```
+1. (Recommended) Create and activate a [virtual environment](https://docs.python.org/3/library/venv.html).
+1. **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 6. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
