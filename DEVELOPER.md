@@ -86,7 +86,7 @@ We currently need automated tests. Creating a UI mock for testing features would
 - Run all tests before merging changes.
 
 ## 🙏 Contributions Needed
-- Completing all planned features for the v2 release
+- Completing all [planned features](https://github.com/users/elwoujdi/projects/2/views/6) for the version 2 release
 - Fixing bugs and improving performance
 - Expanding automated test coverage
 - Optimizing the user interface and user experience
